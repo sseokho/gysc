@@ -6,7 +6,7 @@ $(document).ready(function () {
 function se1Box1_Swiper(){
     var se1Box1Swiper = new Swiper(".se1Box1 .mySwiper", {
         pagination: {
-          el: ".swiper-pagination",
+          el: ".se1Box1 .swiper-pagination",
           type: "fraction",
         },
         navigation: {
@@ -18,7 +18,7 @@ function se1Box1_Swiper(){
 function se1Box2_Swiper(){
     var se1Box2Swiper = new Swiper(".se1Box2 .mySwiper", {
         pagination: {
-          el: ".swiper-pagination",
+          el: ".se1Box2 .swiper-pagination",
           type: "fraction",
         },
         navigation: {

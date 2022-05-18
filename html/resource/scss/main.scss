@@ -1,3 +1,4 @@
+/* se1 */
 .se1{
     margin: 0 auto;
     width:100%;
@@ -9,7 +10,7 @@
         height: 100%;
         .swiper-slide {
             text-align: center;
-            font-size: 18px;
+            font-size: 1.8rem;
             background: #fff;
     
             /* Center slide text vertically */
@@ -27,7 +28,7 @@
             align-items: center;
           }
     }
-      .se1Wrap {
+    .se1Wrap {
         position: relative;
         display: block;
         width:100%;
@@ -40,7 +41,7 @@
             width:82.3rem;
             height:49.5rem;
             background-color:#fff;
-            padding: 10px 0;
+            padding: 1rem 0;
             box-sizing: border-box;
         }
         .se1Box2 {
@@ -50,8 +51,144 @@
             width:52.7rem;
             height:49.5rem;
             background-color:#fff;
-            padding: 10px 0;
+            padding: 1rem 0;
             box-sizing: border-box;
         }
     }
 }
+/* //se1 */
+/* se2 */
+.se2 {
+    background-color:#fff;
+    .iconWrap{
+        display:flex;
+        justify-content: space-between;
+        .icon{
+            position:relative;
+            overflow:hidden;
+            width: 16.6%;
+            height:190px;
+            text-align: center;
+            box-sizing: border-box;
+            & + .icon{border-left:1px solid #eee;}
+            
+            .seBox{
+                position:absolute;
+                display:block;
+                width: 100%;
+                height:19rem;
+                border-radius:1rem;
+                .se2_1{margin:0 auto;margin-top: 3.5rem;width:8.6rem;height:8.6rem;background:#f0f2f7 url(../../resource/image/main/main_icon1.png) no-repeat center center;border-radius: 1rem;}
+                .se2_2{margin:0 auto;margin-top: 3.5rem;width:8.6rem;height:8.6rem;background:#f0f2f7 url(../../resource/image/main/main_icon2.png) no-repeat center center;border-radius: 1rem;}
+                .se2_3{margin:0 auto;margin-top: 3.5rem;width:8.6rem;height:8.6rem;background:#f0f2f7 url(../../resource/image/main/main_icon3.png) no-repeat center center;border-radius: 1rem;}
+                .se2_4{margin:0 auto;margin-top: 3.5rem;width:8.6rem;height:8.6rem;background:#f0f2f7 url(../../resource/image/main/main_icon4.png) no-repeat center center;border-radius: 1rem;}
+                .se2_5{margin:0 auto;margin-top: 3.5rem;width:8.6rem;height:8.6rem;background:#f0f2f7 url(../../resource/image/main/main_icon5.png) no-repeat center center;border-radius: 1rem;}
+                .se2_6{margin:0 auto;margin-top: 3.5rem;width:8.6rem;height:8.6rem;background:#f0f2f7 url(../../resource/image/main/main_icon6.png) no-repeat center center;border-radius: 1rem;}
+            }
+            
+            p {margin-top:20px;font-size:18px;font-weight:500;letter-spacing: -0.5px;}
+        }
+    }
+}
+/* //se2 */
+/* se3 */
+.se3{
+    padding: 50px 0;
+    background-color:#f3f4f6;
+    .se3Wrap {
+        display:flex;
+        justify-content: space-between;
+        .mainBoard {
+            position:relative;
+            width:82.3rem;
+            height:33.3rem;
+            vertical-align: top;
+            border:1px solid darkgreen;
+            .tab_wrap{
+                h4{
+                    position: relative;
+                    padding: 0;
+                    margin:0;
+                    margin-left: 1px;
+                    float: left;
+                    width: 19.5rem;
+                    height: 5.2rem;
+                    line-height: 5.2rem;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #fff;
+                    text-align:center;
+                    background:#909090;
+                    cursor: pointer; 
+                    z-index: 10;
+                    &:first-child {
+                        margin-left:0;
+                    }
+                    &.on {
+                        background:#005aab;
+                        border-bottom:1px solid #fff;
+                    }
+                    a {
+                        color:#fff;
+                    }
+                }
+                .tab_cont{
+                    position:absolute;
+                    display:none;
+                    width:82.3rem;
+                    height:33.3rem;
+                    top:5.2rem;
+                    border:1px solid #02b097;
+                    box-sizing:border-box;
+                    &.on {
+                        display:block;
+                        background:#fff;
+                        border-top: 1px solid #02b097;
+                        border-left: 1px solid #02b097;
+                        border-right: 1px solid #02b097;
+                        border-bottom:1px solid #fff;
+                    }
+                    ul {
+                        margin:0;padding:0;
+                        li {
+                            position: relative;
+                            padding: 2.7rem 1.7rem;
+                            width: 100%;
+                            line-height: 26px;
+                            list-style: none;
+                            font-size:18px;
+                            box-sizing: border-box;
+                            em {
+                                float:right;
+                                font-size:14px;
+                            }
+                        }
+                    }
+                    .more {
+                        position: absolute;
+                        top: -65px; 
+                        right: 0;
+                        display: block;
+                        width: 22px;
+                        height: 22px;
+                        margin-right: 40px;
+                        color: #888;
+                        line-height: 31px;
+                        text-decoration: none;}
+                }
+            }
+        }
+        .infoImg {
+            vertical-align: top;
+            a{
+                & + a {margin-left:1rem;}
+            }
+             
+        }
+    }
+    
+}
+
+/* //se3 */
+/* se4 */
+/* //se4 */

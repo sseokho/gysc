@@ -10,9 +10,11 @@
 
 .board-view__inner .view-date span, .board-view__inner .view-target span { font-size: 2rem; font-weight: 500; color: #555555; }
 
+.board-view__inner .view-file { border-bottom: 1px solid #dddddd; }
+
 .board-view__inner .view-file * { font-size: 1.8rem; font-weight: 400; }
 
-.board-view__inner .view-file .file-list { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 1rem 0; border-bottom: 1px solid #dddddd; }
+.board-view__inner .view-file .file-list { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 1rem 0; width: 100%; }
 
 .board-view__inner .view-file .file-list a { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: .5rem 1.4rem; padding-left: 2.4rem; font-weight: 500; background: url(../../image/sub/icon-file.png) no-repeat left center; }
 

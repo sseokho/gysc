@@ -26,6 +26,9 @@
             background-size: 1rem .7rem;
             background-position: right 2rem center;
             line-height: 100%;
+            &+select{
+                margin-left: .5rem;
+            }
         }
     }
     .form-search{
@@ -85,33 +88,53 @@
             text-align: center;
             vertical-align: middle;
         }
-        td{
+        
+    }
+    td{
+        a{
+            font-size: 1.8rem;
+        }
+        &.tit{
+            text-align: left;
             a{
-                font-size: 1.8rem;
-            }
-            &.tit{
-                text-align: left;
-                a{
-                    @include text-overflow;
-                    font: {
-                        size: 2.2rem;
-                        weight: 500;
-                    }
+                @include text-overflow;
+                font: {
+                    size: 2.2rem;
+                    weight: 500;
                 }
             }
-            &.file {
+        }
+        &.file {
+            @include d-flex;
+            i{
+                display: inline-block;
+                width: 2.3rem;
+                height: 1.8rem;
+                background: url(../../image/sub/icon-file.png) no-repeat center;
+            }
+        }
+        &.py{
+            &_5{
+                padding-top: .5rem !important;
+                padding-bottom: .5rem !important;
+            }
+        }
+        &.state{
+            .badge{
                 @include d-flex;
-                i{
-                    display: inline-block;
-                    width: 2.3rem;
-                    height: 1.8rem;
-                    background: url(../../image/sub/icon-file.png) no-repeat center;
+                width: 9rem;
+                height:4rem;
+                font-size: 1.8rem;
+                color:#ffffff;
+                border-radius: .5rem;
+                &.ing{
+                    background: #005aab;
                 }
-            }
-            &.py{
-                &_5{
-                    padding-top: .5rem !important;
-                    padding-bottom: .5rem !important;
+                &.soon{
+                    background: #8fb7da;
+                }
+                &.end{
+                    background: #cdcdcd;
                 }
             }
         }
@@ -122,6 +145,7 @@
             td{
                 height: 12.3rem;
                 padding:1rem;
+                box-sizing: border-box;
             }
         }
         

@@ -1,0 +1,9 @@
+.button-wrap { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
+
+.button-wrap button { width: 16.4rem; height: 6rem; font-size: 1.8rem; font-weight: 500; }
+
+.button-wrap button + button { margin-left: .5rem; }
+
+.button-wrap .button-blue { background: #005aab; color: #ffffff; }
+
+.button-wrap .button-gray { background: #dfdfdf; }

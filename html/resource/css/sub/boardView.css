@@ -22,6 +22,8 @@
 
 .board-view__inner .view-content * { font-size: 2rem; color: #555555; line-height: 3.2rem; }
 
+.board-view__inner .view-content img { max-width: 100%; }
+
 .board-bottom .button-wrap { -webkit-box-flex: 0; -ms-flex: none; flex: none; margin-top: 5rem; text-align: center; }
 
 .board-bottom .button-wrap button { width: 16.4rem; height: 6rem; font-size: 1.8rem; font-weight: 600; color: #005aab; border: 1px solid #005aab; background: #ffffff; letter-spacing: -1px; }

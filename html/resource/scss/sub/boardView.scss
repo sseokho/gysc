@@ -102,6 +102,7 @@
         }
     }
     &-prevnext{
+        @include flex-column;
         .badge {
             @include d-flex;
             width: 11.6rem;

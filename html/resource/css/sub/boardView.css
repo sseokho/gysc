@@ -12,11 +12,9 @@
 
 .board-view__inner .view-file * { font-size: 1.8rem; font-weight: 400; }
 
-.board-view__inner .view-file .file-list { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 2rem 0; border-bottom: 1px solid #dddddd; }
+.board-view__inner .view-file .file-list { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 1rem 0; border-bottom: 1px solid #dddddd; }
 
-.board-view__inner .view-file .file-list a { display: inline-block; padding-left: 2.4rem; background: url(../../image/sub/icon-file.png) no-repeat left center; }
-
-.board-view__inner .view-file .file-list a + a { margin-left: 2.8rem; }
+.board-view__inner .view-file .file-list a { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: .5rem 1.4rem; padding-left: 2.4rem; font-weight: 500; background: url(../../image/sub/icon-file.png) no-repeat left center; }
 
 .board-view__inner .view-content { padding: 5rem 6rem; font-size: 2rem; color: #555555; line-height: 3.2rem; border-bottom: 1px solid #dddddd; }
 
@@ -27,3 +25,13 @@
 .board-bottom .button-wrap { -webkit-box-flex: 0; -ms-flex: none; flex: none; margin-top: 5rem; text-align: center; }
 
 .board-bottom .button-wrap button { width: 16.4rem; height: 6rem; font-size: 1.8rem; font-weight: 600; color: #005aab; border: 1px solid #005aab; background: #ffffff; letter-spacing: -1px; }
+
+.board-prevnext .badge { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 11.6rem; height: 5rem; margin-right: 3rem; font-size: 1.8rem; color: #555555; border-radius: .3rem; -webkit-box-flex: 0; -ms-flex: none; flex: none; }
+
+.board-prevnext .next .badge { background: #e9e9e9; }
+
+.board-prevnext .prev .badge { background: #e1e5ee; }
+
+.board-prevnext > div { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: .5rem 3rem; border-bottom: 1px solid #e4e4e4; }
+
+.board-prevnext > div a { font-size: 1.8rem; color: #555555; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }

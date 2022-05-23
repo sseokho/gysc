@@ -50,15 +50,17 @@
                     .file-list{
                         @include display-flex;
                         @include justify-center;
-                        padding:2rem 0;
+                        @include flex-wrap;
+                        //margin: -1rem -2.8rem;
+                        padding:1rem 0;
                         border-bottom:1px solid #dddddd;
                         a{
-                            display: inline-block;
+                            @include display-flex;
+                            @include align-center;
+                            margin: .5rem 1.4rem;
                             padding-left: 2.4rem;
+                            font-weight: 500;
                             background: url(../../image/sub/icon-file.png)no-repeat left center;
-                            &+a{
-                                margin-left: 2.8rem;
-                            }
                         }
                     }
                 }
@@ -99,5 +101,43 @@
             }
         }
     }
+    &-prevnext{
+        .badge {
+            @include d-flex;
+            width: 11.6rem;
+            height: 5rem;
+            margin-right: 3rem;
+            font-size: 1.8rem;
+            color: #555555;
+            border-radius: .3rem;
+            -webkit-box-flex: 0;
+            -ms-flex: none;
+            flex: none;
+        }
+        .next{
+            .badge{
+                background: #e9e9e9;
+            }
+        }
+        .prev{
+            .badge{
+                background: #e1e5ee;
+            }
+        }
+        >div {
+            @include display-flex; 
+            @include align-center;
+            padding: .5rem 3rem;
+            border-bottom: 1px solid #e4e4e4;
+            a{
+                font-size: 1.8rem;
+                color: #555555;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+
 }
 

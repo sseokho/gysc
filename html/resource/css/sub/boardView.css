@@ -2,6 +2,16 @@
 
 .board-view__inner .view-title { font-size: 3.6rem; font-weight: 500; }
 
+.board-view__inner .view-title__wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.board-view__inner .view-title__wrap .badge { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 9rem; height: 4rem; margin-left: 1rem; font-size: 1.8rem; color: #ffffff; border-radius: .5rem; -webkit-box-flex: 0; -ms-flex: none; flex: none; }
+
+.board-view__inner .view-title__wrap .badge.ing { background: #005aab; }
+
+.board-view__inner .view-title__wrap .badge.soon { background: #8fb7da; }
+
+.board-view__inner .view-title__wrap .badge.end { background: #cdcdcd; }
+
 .board-view__inner .view-info { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 3rem; }
 
 .board-view__inner .view-date { margin-right: 3rem; }

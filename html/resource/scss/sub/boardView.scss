@@ -15,6 +15,28 @@
                         size: 3.6rem;
                         weight:500;
                     }
+                    &__wrap{
+                        @include d-flex;
+                        .badge{
+                            @include d-flex;
+                            width: 9rem;
+                            height: 4rem;
+                            margin-left: 1rem;
+                            font-size: 1.8rem;
+                            color: #ffffff;
+                            border-radius: .5rem;
+                            flex:none;
+                            &.ing{
+                                background: #005aab;
+                            }
+                            &.soon{
+                                background: #8fb7da;
+                            }
+                            &.end{
+                                background: #cdcdcd;    
+                            }
+                        }
+                    }
                 }
                 &-info{
                     @include display-flex;

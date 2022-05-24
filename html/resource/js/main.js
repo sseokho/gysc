@@ -1,6 +1,7 @@
 $(document).ready(function () {
     se1Box1_Swiper();
     se1Box2_Swiper();
+    footer_Swiper();
     se3Board();
 });    
 
@@ -16,19 +17,30 @@ function se1Box1_Swiper(){
         },
       });
 }
+
 function se1Box2_Swiper(){
-    var se1Box2Swiper = new Swiper(".se1Box2 .mySwiper", {
-        pagination: {
-          el: ".se1Box2 .swiper-pagination",
-          type: "fraction",
-        },
-        navigation: {
-          nextEl: ".se1Box2 .swiper-button-next",
-          prevEl: ".se1Box2 .swiper-button-prev",
-        },
-  });
+  var se1Box2Swiper = new Swiper(".se1Box2 .mySwiper", {
+      pagination: {
+        el: ".se1Box2 .swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".se1Box2 .swiper-button-next",
+        prevEl: ".se1Box2 .swiper-button-prev",
+      },
+});
 }
-function se1Box2_Swiper(){
+
+function footer_Swiper(){
+  var bannerSwiper = new Swiper(".banner_zon .mySwiper", {
+      navigation: {
+        nextEl: ".banner_zon .swiper-button-next",
+        prevEl: ".banner_zon .swiper-button-prev",
+      },
+});
+}
+
+function se3Board(){
   var $notice = $('.tab_wrap');
   var $noticeTab = $notice.find('h4');
   var $noticeCont = $notice.find('.tab_cont');

@@ -609,29 +609,122 @@ header {
     }
 }
 
-.se1 {
-    .se1Wrap {
-        position: relative;
-        display: block;
-        width:100%;
-        top: 50%;
-        transform: translateY(-50%);
-        
-        .se1Box1 {
-            display:inline-block;
-            width:82.3rem;
-            height:49.5rem;
-            background-color:#fff;
-        }
-        .se1Box2 {
-            display:inline-block;
-            margin-left:4.8rem;
-            width:52.7rem;
-            height:49.5rem;
-            background-color:#fff;
-        }
-    }
-}
 
 .btn_sitemap {display: none;}
-footer {display:none;}
+
+
+.footer {
+    .banner_zone {
+        padding: 30px 0;
+        box-sizing: border-box;
+        background-color:#f3f4f6;
+        border:1px solid skyblue;
+        .inner {
+            display:flex;
+        }
+        .zone {
+            padding-top: 3rem;
+            height: 7.9rem;
+            color: #005aab;
+            font-size: 1.8rem;
+            font-weight: 500;
+            vertical-align: top;
+            box-sizing: border-box;
+            letter-spacing: -0.5px;
+        }
+        .swiper-container {
+            display:flex;
+            margin-left:5.3rem;
+            justify-content: space-between;
+            border:1px solid red;
+            width:123.6rem;
+            .swiper-wrapper {
+                display:flex;
+                .swiper-slide {
+                    border:1px solid #dddddd;
+                    box-sizing: border-box;
+                    &+.swiper-slide { 
+                        margin-left:1rem;
+                    }
+                }
+            }
+            .bannerNav{
+                border:1px solid blue;
+                display:flex;
+                width:6.6rem;
+                height:7.5rem;
+                .swiper-button-prev {
+                    position: relative;
+                    top: auto;
+                    left: auto;
+                    width: 13px;
+                    height: 19px;
+                    margin: 0;
+                    background: url(../../resource/image/common/icon/icon_arrowLeft_b.png)no-repeat center center;
+                }
+                .swiper-button-pause {
+                    position: relative;
+                    top: auto;
+                    left: auto;
+                    width: 13px;
+                    height: 19px;
+                    margin: 0;
+                    background: url(../../resource/image/common/icon/icon_pause_b.png)no-repeat center center;
+                }
+                .swiper-button-next {
+                    position: relative;
+                    top: auto;
+                    left: auto;
+                    width: 13px;
+                    height: 19px;
+                    margin: 0;
+                    background: url(../../resource/image/common/icon/icon_arrowRight_b.png)no-repeat center center;
+                }
+            }
+            
+        }
+    }
+
+    .footer_info {
+        padding:6rem 6.6rem;
+        box-sizing:border-box;
+        .inner {
+            display:flex;
+            .foot-info {
+                padding-left:10rem;
+                .fPage {
+                    display:inline-block;
+                    margin-bottom:1.5rem;
+                    a {
+                        font-size:1.6rem;
+                        color:#005aab;
+                        font-weight:500;
+                        letter-spacing: -0.5px;
+                        &+a {
+                            padding-left:1.2rem;
+                            color:#000;
+                        }
+                    }
+
+                }
+                ul {
+                    li {
+                        display: inline-block;
+                        font-size:1.4rem;
+                        font-weight:400;
+                        color:#000;
+                    }
+                    &+ul {
+                        margin-top:1.5rem;
+                    }
+                }
+            }
+        }
+        
+    }
+    .right {
+        margin-top:4.3rem;
+        font-size:1.4rem;
+        color:#747478;
+    }
+}

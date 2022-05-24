@@ -301,6 +301,18 @@
             }
         }
     }
+    &.filter{
+        tr{
+            td{
+                &:nth-child(1){
+                    padding-left: 3rem;
+                    color: #000000;
+                    font-weight: 500;
+                }
+                padding-left: 0;
+            }
+        }
+    }
  }
 
 .table-title {

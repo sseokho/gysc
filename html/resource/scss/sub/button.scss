@@ -1,27 +1,48 @@
 @import "../_mixin";
 
-.button-wrap{
-    @include display-flex;
-    @include justify-center;
-    text-align: center;
-    button{
-        width: 16.4rem;
-        height: 6rem;
-        font: {
-            size: 1.8rem;
-            weight: 500;
+.button{
+    &-wrap{
+        @include display-flex;
+        @include justify-center;
+        text-align: center;
+        button{
+            width: 16.4rem;
+            height: 6rem;
+            font: {
+                size: 1.8rem;
+                weight: 500;
+            }
+            &+button{
+                margin-left: .5rem;
+            }
         }
-        &+button{
-            margin-left: .5rem;
+        .button{
+            &-blue{
+                background: #005aab;
+                color:#ffffff;
+            }
+            &-gray{
+                background: #dfdfdf;
+            }
+            &-deepgray{
+                background: #ababab ;
+                color: #ffffff;
+            }
+            &-deepgray2{
+                background: #464646 ;
+                color: #ffffff;
+            }
+            &-orange{
+                background: #e17c02 ;
+                color: #ffffff;
+            }
         }
     }
-    .button{
-        &-blue{
-            background: #005aab;
-            color:#ffffff;
-        }
-        &-gray{
-            background: #dfdfdf;
+    &-small{
+        button{
+            width: 11.9rem !important; 
+            height: 4.9rem !important;
+            font-weight: 400 ;
         }
     }
 }

@@ -100,6 +100,10 @@
 
 .table-wrap.text-left td { font-weight: 400; text-align: left; color: #555555; }
 
+.table-wrap.filter tr td { padding-left: 0; }
+
+.table-wrap.filter tr td:nth-child(1) { padding-left: 3rem; color: #000000; font-weight: 500; }
+
 .table-title { margin-bottom: 3.5rem; font-size: 3.2rem; font-weight: 500; text-align: center; }
 
 /* paging */

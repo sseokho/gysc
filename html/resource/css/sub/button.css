@@ -7,3 +7,11 @@
 .button-wrap .button-blue { background: #005aab; color: #ffffff; }
 
 .button-wrap .button-gray { background: #dfdfdf; }
+
+.button-wrap .button-deepgray { background: #ababab; color: #ffffff; }
+
+.button-wrap .button-deepgray2 { background: #464646; color: #ffffff; }
+
+.button-wrap .button-orange { background: #e17c02; color: #ffffff; }
+
+.button-small button { width: 11.9rem !important; height: 4.9rem !important; font-weight: 400; }

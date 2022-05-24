@@ -89,3 +89,44 @@
     width: 1px;
     height: 1px;
 }
+
+.filter{
+    .form{
+        &-select {
+            height: 5rem;
+            select {
+                width: 19.5rem;
+                flex: 1;
+                font : {
+                    size: 1.8rem;
+                    weight:400;
+                }
+                color: #555555;
+                background-color: #ffffff;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='8'%3E%3Cpath fill-rule='evenodd' fill='rgb(85, 85, 85)' d='M4.994 8.003-.001-.003h9.99L4.994 8.003Z'/%3E%3C/svg%3E");
+                background-position: right 1rem center;
+                border: 1px solid #dddddd;
+            }
+        }
+        &-group{
+            input{
+                border-color: #dddddd;
+            }
+            
+        }
+    }
+    .checks input[type="radio"] + label{
+        font-weight: 400;
+    }
+    .table{
+        &:last-of-type(1){
+            tr{
+                &:last-child{
+                    border-bottom: 1px solid;
+                }
+
+            }
+            
+        }
+    }
+}

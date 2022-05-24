@@ -8,6 +8,8 @@
 
 .sub-title { margin-bottom: 5rem; font-size: 4.4rem; font-weight: 600; text-align: center; }
 
+.sub-title2 { margin-bottom: 3rem; font-size: 2.4rem; font-weight: 600; }
+
 .sub-tab__inner { padding: 3.5rem 0; margin-bottom: 5rem; border-radius: .5rem; border: .2rem solid #e0e3e8; }
 
 .sub-tab ul { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }

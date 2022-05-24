@@ -26,7 +26,7 @@
 
 .table-wrap thead tr th { height: 6rem; font-weight: 500; color: #005aab; }
 
-.table-wrap tr th, .table-wrap tr td { font-size: 1.8rem; border: none; text-align: center; vertical-align: middle; }
+.table-wrap tr th, .table-wrap tr td { font-size: 1.8rem; border: none; text-align: center; vertical-align: middle; line-height: 3.2rem; }
 
 .table-wrap td a { font-size: 1.8rem; }
 
@@ -48,6 +48,20 @@
 
 .table-wrap td.state .badge.end { background: #cdcdcd; }
 
+.table-wrap td.link > div, .table-wrap td.map > div, .table-wrap td.phone > div { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.table-wrap td.link > div a, .table-wrap td.map > div a, .table-wrap td.phone > div a { font-weight: 400; color: #555555; }
+
+.table-wrap td.link > div i, .table-wrap td.map > div i, .table-wrap td.phone > div i { margin-left: 1rem; }
+
+.table-wrap td.link i { display: inline-block; width: 1.9rem; height: 1.8rem; background: url(../../image/sub/icon-site.png); }
+
+.table-wrap td.map i { display: inline-block; width: 1.2rem; height: 1.8rem; background: url(../../image/sub/icon-map.png); }
+
+.table-wrap td.phone i { display: inline-block; width: 1.3rem; height: 1.8rem; background: url(../../image/sub/icon-phone.png); }
+
+.table-wrap td.h-150 { min-height: 15rem !important; height: 15rem !important; padding-top: 1rem !important; padding-bottom: 1rem !important; }
+
 .table-wrap tbody tr { border-bottom: 1px solid #dddddd; }
 
 .table-wrap tbody tr td { height: 12.3rem; padding: 1rem; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -56,7 +70,7 @@
 
 .table-wrap.ver tbody th, .table-wrap.ver tbody td { height: 6rem; padding: 0 2rem; }
 
-.table-wrap.ver tbody th { text-align: right; background: #f5f8f9; border-right: 1px solid #efefef; font-weight: 500; }
+.table-wrap.ver tbody th { text-align: center; background: #f5f8f9; border-right: 1px solid #efefef; font-weight: 500; }
 
 .table-wrap.ver tbody td { padding-left: 2.5rem; }
 
@@ -70,21 +84,21 @@
 
 .table-wrap.thin { border-top: none; }
 
-.table-wrap.thin tr td, .table-wrap.thin tr th { height: 5rem; border: 1px solid #efefef; font-size: 1.8rem; font-weight: 500; color: #555555; }
+.table-wrap.thin tr td, .table-wrap.thin tr th { height: 5rem; border: 1px solid #efefef; font-size: 1.8rem; font-weight: 400; color: #555555; }
+
+.table-wrap.thin tr td *, .table-wrap.thin tr th * { font-size: 1.8rem; font-weight: 400; color: #555555; }
 
 .table-wrap.thin thead tr { background: #f8fafc; }
 
-.table-wrap.thin thead tr th { color: #000000; font-size: 1.8rem; }
+.table-wrap.thin thead tr th { color: #000000; font-size: 1.8rem; font-weight: 500; }
 
-.table-wrap.thin tbody th { background: #f8fafc; }
+.table-wrap.thin tbody th { background: #f8fafc; font-size: 1.8rem; font-weight: 500; color: #000000; }
 
 .table-wrap.thin tbody td.tit { text-align: center; }
 
 .table-wrap.thin tbody td.tit a { font-size: 1.8rem; color: #555555; }
 
-.table-wrap.thin tbody td.link i { display: inline-block; width: 1.9rem; height: 1.8rem; background: url(../../image/sub/icon-site.png); }
-
-.table-wrap.thin tbody td.map i { display: inline-block; width: 1.2rem; height: 1.8rem; background: url(../../image/sub/icon-map.png); }
+.table-wrap.text-left td { font-weight: 400; text-align: left; color: #555555; }
 
 .table-title { margin-bottom: 3.5rem; font-size: 3.2rem; font-weight: 500; text-align: center; }
 

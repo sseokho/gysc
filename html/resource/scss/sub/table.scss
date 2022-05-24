@@ -87,6 +87,7 @@
             border: none;
             text-align: center;
             vertical-align: middle;
+            line-height: 3.2rem;
         }
         
     }
@@ -138,6 +139,49 @@
                 }
             }
         }
+        &.link, &.map, &.phone{
+            >div{
+                @include display-flex;
+                @include align-center;
+                a{
+                    font-weight: 400;
+                    color:#555555;
+                }
+                i{
+                    margin-left: 1rem;
+                }
+            }
+        }
+        &.link{
+            i{
+                display: inline-block;
+                width: 1.9rem;
+                height: 1.8rem;
+                background: url(../../image/sub/icon-site.png);
+            }
+        }
+        &.map{
+            i{
+                display: inline-block;
+                width: 1.2rem;
+                height: 1.8rem;
+                background: url(../../image/sub/icon-map.png);
+            }
+        }
+        &.phone{
+            i{
+                display: inline-block;
+                width: 1.3rem;
+                height: 1.8rem;
+                background: url(../../image/sub/icon-phone.png);
+            }
+        }
+        &.h-150{
+            min-height: 15rem !important;
+            height: 15rem !important;
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
+        }
     }
     tbody{
         tr{
@@ -160,8 +204,7 @@
                 padding: 0 2rem;
             }
             th{
-                
-                text-align: right;
+                text-align: center;
                 background: #f5f8f9;
                 border-right: 1px solid #efefef;
                 font-weight: 500;
@@ -202,9 +245,16 @@
                 border:1px solid #efefef;
                 font : {
                     size: 1.8rem;
-                    weight:500;
+                    weight:400;
                 }
                 color:#555555;
+                *{
+                    font : {
+                        size: 1.8rem;
+                        weight:400;
+                    }
+                    color:#555555;
+                }
             }
         }
         thead{
@@ -212,13 +262,21 @@
                 background: #f8fafc;
                 th{
                     color:#000000;
-                    font-size: 1.8rem;
+                    font : {
+                        size: 1.8rem;
+                        weight:500;
+                    }
                 }
             }
         }
         tbody{
             th{
                 background: #f8fafc;
+                font : {
+                    size: 1.8rem;
+                    weight:500;
+                }
+                color:#000000;
             }
             td{
                 &.tit{
@@ -229,25 +287,19 @@
 
                     }
                 }
-                &.link{
-                    i{
-                        display: inline-block;
-                        width: 1.9rem;
-                        height: 1.8rem;
-                        background: url(../../image/sub/icon-site.png);
-                    }
-                }
-                &.map{
-                    i{
-                        display: inline-block;
-                        width: 1.2rem;
-                        height: 1.8rem;
-                        background: url(../../image/sub/icon-map.png);
-                    }
-                }
+                
             }
         }
         
+    }
+    &.text{
+        &-left{
+            td{
+                font-weight: 400;
+                text-align: left;
+                color:#555555;
+            }
+        }
     }
  }
 

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../html/resource/css/reset.css">
     <link rel="stylesheet" href="../../../html/resource/css/common.css">
-    <link rel="stylesheet" href="../../../html/resource/css/main.css">
 
 
     <!-- sub css -->
@@ -16,6 +16,7 @@
 
     <!-- view css -->
     <link rel="stylesheet" href="../../../html/resource/css/sub/boardView.css">
+    <link rel="stylesheet" href="../../../html/resource/css/sub/table.css">
 
 
 
@@ -24,7 +25,7 @@
     <script type="text/javascript" src="../../../html/resource/js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="../../../html/resource/js/swiper.min.js"></script>
     <script type="text/javascript" src="../../../html/resource/js/common.js"></script>
-    <script type="text/javascript" src="../../../html/resource/js/main.js"></script>
+    <!-- <script type="text/javascript" src="../../../html/resource/js/main.js"></script> -->
 
     <title>경기도청소년활동진흥센터</title>
 </head>
@@ -749,7 +750,7 @@
                 <div class="area">
                     <div class="area__inner">
                         <map name="image-map">
-                            <div class="flagList">
+                            <div class="area-list__map">
                                 <div class="tab_Con01 active" onclick="tab_menu(01);">
                                     <area target="_self" alt="가평군" title="가평군" href="javascript:void(0)"
                                         coords="411,253,401,261,387,265,382,245,379,236,362,241,363,232,343,200,334,197,339,171,348,168,351,152,359,150,369,141,368,129,381,113,405,120,429,157,402,178,410,195,402,211,413,215,411,242"
@@ -904,286 +905,294 @@
                                 </div>
                             </div>
                         </map>
-                        <div class="area_wrap row ml-0 mr-0">
-                            <div class="flagList d-flex p-0 col-md-6 align-items-center justify-content-center">
-
-
-                                <div class="list gapyeong tab_Con01 active">
-                                    <div class="img"><img src="../../resource/image/sub/map/gapyeong.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list yongin tab_Con02">
-                                    <div class="img"><img src="../../resource/image/sub/map/yongin.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list gwangju tab_Con03">
-                                    <div class="img"><img src="../../resource/image/sub/map/gwangju.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list goyang tab_Con04">
-                                    <div class="img"><img src="../../resource/image/sub/map/goyang.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list Gimpo tab_Con05">
-                                    <div class="img"><img src="../../resource/image/sub/map/Gimpo.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list Paju tab_Con06">
-                                    <div class="img"><img src="../../resource/image/sub/map/Paju.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list Yangju tab_Con07">
-                                    <div class="img"><img src="../../resource/image/sub/map/Yangju.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list Namyangju tab_Con08">
-                                    <div class="img"><img src="../../resource/image/sub/map/Namyangju.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list Guri tab_Con09">
-                                    <div class="img"><img src="../../resource/image/sub/map/Guri.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list Hanam tab_Con10">
-                                    <div class="img"><img src="../../resource/image/sub/map/Hanam.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list Seongnam tab_Con11">
-                                    <div class="img"><img src="../../resource/image/sub/map/Seongnam.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list Gwangmyeong tab_Con12">
-                                    <div class="img"><img src="../../resource/image/sub/map/Gwangmyeong.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con13">
-                                    <div class="img"><img src="../../resource/image/sub/map/Bucheon.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con14">
-                                    <div class="img"><img src="../../resource/image/sub/map/Pyeongtaek.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con15">
-                                    <div class="img"><img src="../../resource/image/sub/map/Anseong.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con16">
-                                    <div class="img"><img src="../../resource/image/sub/map/Icheon.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con17">
-                                    <div class="img"><img src="../../resource/image/sub/map/Yeoju.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con18">
-                                    <div class="img"><img src="../../resource/image/sub/map/Yangpyeong.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con19">
-                                    <div class="img"><img src="../../resource/image/sub/map/Pocheon.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con20">
-                                    <div class="img"><img src="../../resource/image/sub/map/Uijeongbu.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con21">
-                                    <div class="img"><img src="../../resource/image/sub/map/Dongducheon.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con22">
-                                    <div class="img"><img src="../../resource/image/sub/map/Yeoncheon.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con23">
-                                    <div class="img"><img src="../../resource/image/sub/map/Siheung.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con24">
-                                    <div class="img"><img src="../../resource/image/sub/map/Gwacheon.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con25">
-                                    <div class="img"><img src="../../resource/image/sub/map/Ansan.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con26">
-                                    <div class="img"><img src="../../resource/image/sub/map/Uiwang.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con27">
-                                    <div class="img"><img src="../../resource/image/sub/map/Gunpo.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con28">
-                                    <div class="img"><img src="../../resource/image/sub/map/Suwon.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con29">
-                                    <div class="img"><img src="../../resource/image/sub/map/Hwaseong.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con30">
-                                    <div class="img"><img src="../../resource/image/sub/map/Osan.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                                <div class="list tab_Con31">
-                                    <div class="img"><img src="../../resource/image/sub/map/Anyang.png"
-                                            usemap="#image-map"></div>
-                                </div>
-                            </div>
-
-
-
-
-                            <div class="select_wrap col-md-6">
-                                <div class="">
-                                    <div class="cho_place">
-                                        <p>장소별</p>
-                                        <p>경기도 전역 <span>|</span> <span>장소선택</span></p>
-                                        <label for="searchCondition" class="hidden">검색 구분</label>
-                                        <!-- <select id="searchCondition" name="searchCondition" class="select">
-                                            <option value="">경기도청</option>
-                                            <option value=""></option>
-                                            
-                                        </select> -->
-                                        <label for="searchKeyword" class="hidden">검색어 입력란</label>
-                                        <input type="text" class="inp" id="searchKeywordx" title="검색어 입력" value=""
-                                            style="width: 54.1%; margin-top:20px; height: 55px; border-radius: 0; padding:10px; border: 1px solid #e9e9e9;">
-                                        <button type="button" class="btn_search" id="btn_search2">검색</button>
+                        <div class="area-wrap">
+                            <div>
+                                
+                                <div class="area-img">
+                                    <div class="list active">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/map_basic.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list gapyeong tab_Con01">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/gapyeong.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list yongin tab_Con02">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/yongin.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list gwangju tab_Con03">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/gwangju.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list goyang tab_Con04">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/goyang.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list Gimpo tab_Con05">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Gimpo.png" usemap="#image-map"></div>
+                                    </div>
+                                    <div class="list Paju tab_Con06">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Paju.png" usemap="#image-map"></div>
+                                    </div>
+                                    <div class="list Yangju tab_Con07">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Yangju.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list Namyangju tab_Con08">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Namyangju.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list Guri tab_Con09">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Guri.png" usemap="#image-map"></div>
+                                    </div>
+                                    <div class="list Hanam tab_Con10">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Hanam.png" usemap="#image-map"></div>
+                                    </div>
+                                    <div class="list Seongnam tab_Con11">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Seongnam.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list Gwangmyeong tab_Con12">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Gwangmyeong.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con13">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Bucheon.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con14">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Pyeongtaek.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con15">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Anseong.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con16">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Icheon.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con17">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Yeoju.png" usemap="#image-map"></div>
+                                    </div>
+                                    <div class="list tab_Con18">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Yangpyeong.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con19">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Pocheon.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con20">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Uijeongbu.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con21">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Dongducheon.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con22">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Yeoncheon.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con23">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Siheung.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con24">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Gwacheon.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con25">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Ansan.png" usemap="#image-map"></div>
+                                    </div>
+                                    <div class="list tab_Con26">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Uiwang.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con27">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Gunpo.png" usemap="#image-map"></div>
+                                    </div>
+                                    <div class="list tab_Con28">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Suwon.png" usemap="#image-map"></div>
+                                    </div>
+                                    <div class="list tab_Con29">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Hwaseong.png" usemap="#image-map">
+                                        </div>
+                                    </div>
+                                    <div class="list tab_Con30">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Osan.png" usemap="#image-map"></div>
+                                    </div>
+                                    <div class="list tab_Con31">
+                                        <div class="img">
+                                            <img src="../../resource/image/sub/map/Anyang.png" usemap="#image-map">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="">
-                                    <div class="cho_area">
-                                        <p>지역별</p>
-                                        <p>경기도 전역 <span>|</span> <span>시군선택</span></p>
-                                        <label for="searchCondition" class="hidden">검색 구분</label>
+                                <div class="area-select">
+                                    <div class="area-search">
+                                        <div class="cho_place">
+                                            <p class="tit">경기도 청소년 기관 및 단체</p>
+                                            <p class="des">지도를 클릭하시면 각 지역에 위치한 기관 및 단체를 확인하실 수 있습니다.</p>
+                                            <div>
+                                                <div class="form-select">
+                                                    <select class="select ">
+                                                        <option value="">기관명</option>
+                                                    </select>
+                                                    <select class="select ">
+                                                        <option value="" selected="selected">지역</option>
+                                                        <option value="01">가평군</option>
+                                                        <option value="04">고양시</option>
+                                                        <option value="24">과천시</option>
+                                                        <option value="12">광명시</option>
+                                                        <option value="03">광주시</option>
+                                                        <option value="09">구리시</option>
+                                                        <option value="27">군포시</option>
+                                                        <option value="05">김포시</option>
+                                                        <option value="08">남양주시</option>
+                                                        <option value="21">동두천시</option>
+                                                        <option value="13">부천시</option>
+                                                        <option value="11">성남시</option>
+                                                        <option value="28">수원시</option>
+                                                        <option value="23">시흥시</option>
+                                                        <option value="25">안산시</option>
+                                                        <option value="15">안성시 </option>
+                                                        <option value="31">안양시</option>
+                                                        <option value="07">양주시</option>
+                                                        <option value="18">양평군</option>
+                                                        <option value="17">여주시</option>
+                                                        <option value="22">연천군</option>
+                                                        <option value="30">오산시</option>
+                                                        <option value="02">용인시</option>
+                                                        <option value="26">의왕시</option>
+                                                        <option value="20">의정부시</option>
+                                                        <option value="16">이천시</option>
+                                                        <option value="06">파주시</option>
+                                                        <option value="14">평택시</option>
+                                                        <option value="19">포천시</option>
+                                                        <option value="10">하남시 </option>
+                                                        <option value="29">화성시</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-search">
+                                                <label for="searchKeyword" class="hidden">검색어 입력란</label>
+                                                <input type="text" class="inp" id="searchKeywordx" title="검색어 입력"
+                                                    value="" placeholder="활동명, 기관명, 영역명을 입력하세요.">
+                                                <button type="button" class="btn-search" id="btn_search2">검색</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="">
 
-
-
-                                        <select id="searchCondition2x" class="select">
-                                            <option value="">전체</option>
-
-
-                                            <option value="01" selected="selected">가평군</option>
-
-
-                                            <option value="04">고양시</option>
-
-
-                                            <option value="24">과천시</option>
-
-
-                                            <option value="12">광명시</option>
-
-
-                                            <option value="03">광주시</option>
-
-
-                                            <option value="09">구리시</option>
-
-
-                                            <option value="27">군포시</option>
-
-
-                                            <option value="05">김포시</option>
-
-
-                                            <option value="08">남양주시</option>
-
-
-                                            <option value="21">동두천시</option>
-
-
-                                            <option value="13">부천시</option>
-
-
-                                            <option value="11">성남시</option>
-
-
-                                            <option value="28">수원시</option>
-
-
-                                            <option value="23">시흥시</option>
-
-
-                                            <option value="25">안산시</option>
-
-
-                                            <option value="15">안성시 </option>
-
-
-                                            <option value="31">안양시</option>
-
-
-                                            <option value="07">양주시</option>
-
-
-                                            <option value="18">양평군</option>
-
-
-                                            <option value="17">여주시</option>
-
-
-                                            <option value="22">연천군</option>
-
-
-                                            <option value="30">오산시</option>
-
-
-                                            <option value="02">용인시</option>
-
-
-                                            <option value="26">의왕시</option>
-
-
-                                            <option value="20">의정부시</option>
-
-
-                                            <option value="16">이천시</option>
-
-
-                                            <option value="06">파주시</option>
-
-
-                                            <option value="14">평택시</option>
-
-
-                                            <option value="19">포천시</option>
-
-
-                                            <option value="10">하남시 </option>
-
-
-                                            <option value="29">화성시</option>
-
-
-                                        </select>
-                                        <button type="button" class="btn_search" onclick="">검색</button>
                                     </div>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
 
-                <div class="board-prevnext d-flex flex-column">
-                    <div class="next d-flex align-items-center">
-                        <span class="badge">이전글</span>
-                        <a href="javascript:void(0)">독일어 교과서 입고</a>
-                    </div>
-                    <div class="prev d-flex align-items-center">
-                        <span class="badge">다음글</span>
-                        <a href="javascript:void(0)">거래내역 영수증거래내역 영수증거래내역 영수증거래내역 영수증거래내역 영수증거래내역 영수</a>
+                <div class="mt_30">
+                    <div class="table-wrap thin">
+                        <table class="table">
+                            <caption>소개 공지사항 테이블</caption>
+                            <colgroup>
+                                <col style="width:12rem">
+                                <col style="width:32.5rem">
+                                <col style="width:auto">
+                                <col style="width:24rem">
+                                <col style="width:14.5rem">
+                                <col style="width:14rem">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th scope="col">번호</th>
+                                    <th scope="col">기관명</th>
+                                    <th scope="col">주소</th>
+                                    <th scope="col">전화번호</th>
+                                    <th scope="col">바로가기</th>
+                                    <th scope="col">지도</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="num">10</th>
+                                    <td class="tit">
+                                        <a href="javascript:void(0)">경기도청소년활동진흥센터</a>
+                                    </td>
+                                    <td class="address">
+                                        경기도 수원시 장안구 송원로 55
+                                    </td>
+                                    <td class="phone">
+                                        02-123-4567
+                                    </td>
+                                    <td class="link">
+                                        <a href="javascript:void(0)" target="_blank"><i></i></a>
+                                    </td>
+                                    <td class="map"><a href="javascript:void(0)" target="_blank"><i></i></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
 
+
                 <div class="board-bottom">
-                    <div class="button-wrap">
-                        <button>목록</button>
+                    <div class="paging">
+                        <div class="paging__inner d-flex">
+                            <a href="javascript:void(0)" class="first "><i class="icon arrow-first"></i></a>
+                            <a href="javascript:void(0)" class="prev "><i class="icon arrow-prev"></i></a>
+                            <a href="javascript:void(0)" class="on">1</a>
+                            <a href="javascript:void(0)">2</a>
+                            <a href="javascript:void(0)">3</a>
+                            <a href="javascript:void(0)">4</a>
+                            <a href="javascript:void(0)">5</a>
+                            <a href="javascript:void(0)">6</a>
+                            <a href="javascript:void(0)">7</a>
+                            <a href="javascript:void(0)">8</a>
+                            <a href="javascript:void(0)">9</a>
+                            <a href="javascript:void(0)">10</a>
+                            <a href="javascript:void(0)" class="next"><i class="icon arrow-next"></i></a>
+                            <a href="javascript:void(0)" class="last"><i class="icon arrow-last"></i></a>
+                        </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
@@ -1208,5 +1217,51 @@
         </div>
     </footer>
 </body>
+
+<script>
+    function fn_detail(idx) {
+        $("#idx").val(idx);
+        $("#listForm").attr("action", "/user/01/aview.do");
+        $("#listForm").submit();
+    }
+
+    function fn_search3(region) {
+        //console.log(region);
+        //return false;
+        $("#searchCondition2").val(3);
+        $("#searchKeyword2").val(region);
+        $("#listForm").attr("action", "/user/year100aList.do");
+        $("#listForm").submit();
+    }
+
+    function tab_menu(num) {
+        //$("#searchCondition").val("");
+        //$("#searchKeyword").val("");
+        $("#pageIndex").val(1);
+
+
+        var f = $('.area-img').find('.list');
+        for (var i = 0; i < f.length; i++) {
+            if (i == num) {
+                f.eq(i).addClass('active');
+                $('.tab_Con0' + i).addClass('active');
+                $('.tbl-box .tab_Con0' + i).addClass('active');
+
+            } else {
+                f.eq(i).removeClass('active');
+                $('.tab_Con0' + i).removeClass('active');
+            }
+        }
+
+        if (num < 10) {
+            var region = $('.tab_Con0' + num).find("area").attr("title");
+        } else {
+            var region = $('.tab_Con' + num).find("area").attr("title");
+        }
+        //console.log(region);
+        fn_search3(region);
+        //location.href="/user/year100aList.do?region="+region;
+    }
+</script>
 
 </html>

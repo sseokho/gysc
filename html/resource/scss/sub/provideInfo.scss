@@ -1,0 +1,5 @@
+@import "../_mixin";
+
+
+.flagList .list img{display: none}
+.flagList .list.active img{display:block}

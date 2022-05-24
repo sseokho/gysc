@@ -1,1 +1,3 @@
-@charset "utf-8";
+.flagList .list img { display: none; }
+
+.flagList .list.active img { display: block; }

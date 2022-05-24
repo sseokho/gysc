@@ -12,6 +12,7 @@
     <!-- sub css -->
     <link rel="stylesheet" href="../../../html/resource/css/sub/subCommon.css">
     <link rel="stylesheet" href="../../../html/resource/css/sub/location.css">
+    <link rel="stylesheet" href="../../../html/resource/css/sub/provideInfo.css">
 
     <!-- view css -->
     <link rel="stylesheet" href="../../../html/resource/css/sub/boardView.css">
@@ -737,47 +738,433 @@
                 <div class="sub-tab">
                     <div class="sub-tab__inner">
                         <ul>
-                            <li><a href="javascript:void(0)">청소년기관 현황</a></li>
-                            <li class="on"><a href="javascript:void(0)">청소년기관 홍보</a></li>
+                            <li class="on"><a href="javascript:void(0)">청소년기관 현황</a></li>
+                            <li><a href="javascript:void(0)">청소년기관 홍보</a></li>
                             <li><a href="javascript:void(0)">청소년기관 프로그램(e-청소년)</a></li>
                             <li><a href="javascript:void(0)">청소년기관 프로그램 자료실</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="board-view">
-                    <div class="board-view__inner">
-                        <div class="view-header">
-                            <div class="view-title__wrap">
-                                <div class="view-title">청소년방과후아카데미 실무협의회 운영</div>
-                                <div class="badge ing">진행중</div><!-- 전달사항 :: 진행중 ing, 진행예정 soon , 종료 end 로 class 다릅니다. 구분해주세요 -->
+
+                <div class="area">
+                    <div class="area__inner">
+                        <map name="image-map">
+                            <div class="flagList">
+                                <div class="tab_Con01 active" onclick="tab_menu(01);">
+                                    <area target="_self" alt="가평군" title="가평군" href="javascript:void(0)"
+                                        coords="411,253,401,261,387,265,382,245,379,236,362,241,363,232,343,200,334,197,339,171,348,168,351,152,359,150,369,141,368,129,381,113,405,120,429,157,402,178,410,195,402,211,413,215,411,242"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con02" onclick="tab_menu(02);">
+                                    <area target="" alt="용인시" title="용인시" href="javascript:void(0)"
+                                        coords="295,342,301,347,320,338,335,341,333,362,348,370,345,382,347,390,367,400,372,410,371,420,342,419,338,407,328,408,308,426,296,423,292,415,297,401,303,397,302,382,284,381,280,374,284,361,278,354,268,341,271,334,288,348"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con03" onclick="tab_menu(03);">
+                                    <area target="" alt="광주시" title="광주시" href="javascript:void(0)"
+                                        coords="332,287,347,279,357,281,365,293,362,302,366,315,376,334,351,356,350,365,336,365,336,339,321,335,300,344,299,337,309,329,307,320,313,317,315,307,310,298,326,297"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con04" onclick="tab_menu(04);">
+                                    <area target="" alt="고양시" title="고양시" href="javascript:void(0)"
+                                        coords="234,215,210,215,205,222,185,226,175,224,180,234,224,263,233,257,237,239,249,238,252,244,260,241,261,232,252,223,246,229,240,230,242,206"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con05" onclick="tab_menu(05);">
+                                    <area target="" alt="김포시" title="김포시" href="javascript:void(0)"
+                                        coords="173,196,134,194,144,254,162,257,171,242,192,259,208,260,214,256,175,234,173,223,176,208"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con06" onclick="tab_menu(06);">
+                                    <area target="" alt="파주시" title="파주시" href="javascript:void(0)"
+                                        coords="207,122,172,141,176,164,171,193,179,206,173,222,180,226,200,220,206,212,224,212,235,212,238,207,244,194,239,189,241,179,247,176,254,144,265,125,254,118,246,126,234,125,236,133,228,131,224,127,218,136"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con07" onclick="tab_menu(07);">
+                                    <area target="" alt="양주시" title="양주시" href="javascript:void(0)"
+                                        coords="256,146,249,175,240,185,248,195,242,223,252,221,259,228,265,221,263,201,272,198,278,203,290,195,293,171,278,170,271,160,263,160,265,147"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con08" onclick="tab_menu(08);">
+                                    <area target="" alt="남양주시" title="남양주시" href="javascript:void(0)"
+                                        coords="302,205,319,208,335,199,343,201,362,234,360,240,352,250,344,279,337,284,324,275,317,260,308,263,298,255,303,245,299,240,291,241,285,225,293,217"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con09" onclick="tab_menu(09);">
+                                    <area target="" alt="구리시" title="구리시" href="javascript:void(0)"
+                                        coords="298,243,285,245,289,254,284,264,292,267,302,265,299,258" shape="poly">
+                                </div>
+                                <div class="tab_Con10" onclick="tab_menu(10);">
+                                    <area target="" alt="하남시" title="하남시" href="javascript:void(0)"
+                                        coords="316,264,307,265,310,273,294,286,308,297,326,294,333,284,322,275"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con11" onclick="tab_menu(11);">
+                                    <area target="" alt="성남시" title="성남시" href="javascript:void(0)"
+                                        coords="275,333,288,344,293,340,297,333,307,326,304,321,309,315,308,305,306,296,288,303,279,312,273,312,273,319,270,328"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con12" onclick="tab_menu(12);">
+                                    <area target="" alt="광명시" title="광명시" href="javascript:void(0)"
+                                        coords="221,318,230,319,234,309,227,291,219,294,214,301,220,310" shape="poly">
+                                </div>
+                                <div class="tab_Con13" onclick="tab_menu(13);">
+                                    <area target="" alt="부천시" title="부천시" href="javascript:void(0)"
+                                        coords="199,272,188,289,194,301,213,303,212,286,217,275" shape="poly">
+                                </div>
+                                <div class="tab_Con14" onclick="tab_menu(14);">
+                                    <area target="" alt="평택시" title="평택시" href="javascript:void(0)"
+                                        coords="289,413,293,434,292,446,299,446,297,457,291,470,238,495,200,451,223,448,228,432,249,436,262,434,261,413,267,411,277,416"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con15" onclick="tab_menu(15);">
+                                    <area target="" alt="안성시" title="안성시" href="javascript:void(0)"
+                                        coords="378,409,395,416,397,429,391,437,342,489,294,467,299,457,301,445,297,436,296,426,309,430,319,422,329,411,342,422,359,423,373,424,373,413"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con16" onclick="tab_menu(16);">
+                                    <area target="" alt="이천시" title="이천시" href="javascript:void(0)"
+                                        coords="397,388,402,372,404,349,383,336,352,357,354,368,348,377,350,389,370,398,374,409,384,407,395,414,399,432,391,439,401,441,415,438,435,411,421,395,407,401"
+                                        shape="poly">
+
+                                </div>
+                                <div class="tab_Con17" onclick="tab_menu(17);">
+                                    <area target="" alt="여주시" title="여주시" href="javascript:void(0)"
+                                        coords="464,367,445,411,431,406,421,391,406,398,399,391,405,374,402,360,406,350,389,334,378,334,367,318,376,310,389,317,398,313,403,321,420,318,441,318,449,332,462,331"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con18" onclick="tab_menu(18);">
+                                    <area target="" alt="양평군" title="양평군" href="javascript:void(0)"
+                                        coords="407,261,389,267,377,239,358,244,353,256,344,278,358,277,368,293,363,305,368,314,377,308,387,313,402,311,408,321,418,313,434,318,441,315,450,322,452,329,459,329,464,335,489,272,423,236"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con19" onclick="tab_menu(19);">
+                                    <area target="" alt="포천시" title="포천시" href="javascript:void(0)"
+                                        coords="299,126,287,131,288,142,300,152,300,162,291,165,294,179,291,195,302,203,322,205,334,195,338,169,346,167,349,149,357,149,365,140,364,127,371,124,382,110,380,85,347,90,335,80,340,64,331,60,320,75,310,64,312,58,311,88,314,98,308,106,299,98,297,106,302,120"
+                                        shape="poly">
+
+                                </div>
+                                <div class="tab_Con20" onclick="tab_menu(20);">
+                                    <area target="" alt="의정부시" title="의정부시" href="javascript:void(0)"
+                                        coords="271,200,263,204,267,221,283,225,301,204,291,197,278,207" shape="poly">
+                                </div>
+                                <div class="tab_Con21" onclick="tab_menu(21);">
+                                    <area target="" alt="동두천시" title="동두천시" href="javascript:void(0)"
+                                        coords="277,133,265,153,273,157,278,167,291,169,291,161,297,159,287,143,286,132"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con22" onclick="tab_menu(22);">
+                                    <area target="" alt="연천군" title="연천군" href="javascript:void(0)"
+                                        coords="287,27,261,43,250,68,239,76,224,86,212,121,219,131,226,127,235,130,232,118,246,124,255,117,267,123,255,143,266,145,277,129,287,131,299,124,296,108,294,100,300,96,307,103,314,101,309,89,307,53,305,43,293,29"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con23" onclick="tab_menu(23);">
+                                    <area target="" alt="시흥시" title="시흥시" href="javascript:void(0)"
+                                        coords="210,333,187,347,176,341,196,304,214,304,219,314,219,321,229,322,229,328"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con24" onclick="tab_menu(24);">
+                                    <area target="" alt="과천시" title="과천시" href="javascript:void(0)"
+                                        coords="258,317,270,315,268,309,270,298,261,299,249,305,249,312" shape="poly">
+                                </div>
+                                <div class="tab_Con25" onclick="tab_menu(25);">
+                                    <area target="" alt="안산시" title="안산시" href="javascript:void(0)"
+                                        coords="208,360,218,367,234,356,240,363,242,354,236,349,229,349,227,344,233,338,231,329,217,335,205,339,200,342,187,348,195,358"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con26" onclick="tab_menu(26);">
+                                    <area target="" alt="의왕시" title="의왕시" href="javascript:void(0)"
+                                        coords="250,341,244,348,251,351,262,339,270,332,273,315,258,320,249,329"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con27" onclick="tab_menu(27);">
+                                    <area target="" alt="군포시" title="군포시" href="javascript:void(0)"
+                                        coords="235,335,228,339,230,346,240,350,244,342,249,332,243,327,235,329"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con28" onclick="tab_menu(28);">
+                                    <area target="" alt="수원시" title="수원시" href="javascript:void(0)"
+                                        coords="263,342,253,346,252,352,243,352,243,361,247,367,252,377,270,377,279,372,283,360,277,359"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con29" onclick="tab_menu(29);">
+                                    <area target="" alt="화성시" title="화성시" href="javascript:void(0)"
+                                        coords="290,408,293,401,300,396,301,385,285,383,276,374,269,379,249,379,246,369,241,370,235,357,219,369,207,362,202,374,174,366,168,410,177,418,193,400,205,399,209,409,189,419,191,443,203,449,222,447,227,428,246,434,259,431,259,412,266,405,259,395,267,390,276,388,287,395"
+                                        shape="poly">
+                                </div>
+                                <div class="tab_Con30" onclick="tab_menu(30);">
+                                    <area target="" alt="오산시" title="오산시" href="javascript:void(0)"
+                                        coords="277,411,287,408,280,399,276,389,262,396,271,409" shape="poly">
+
+                                </div>
+                                <div class="tab_Con31" onclick="tab_menu(31);">
+                                    <area target="" alt="안양시" title="안양시" href="javascript:void(0)"
+                                        coords="246,307,235,311,231,317,232,330,242,324,248,329,256,322,252,315"
+                                        shape="poly">
+                                </div>
                             </div>
-                            <div class="view-info d-flex">
-                                <p class="view-date"><span class="tit">기간 : </span><span>2022년 1월 ~ 12월</span></p>
-                                <p class="view-target"><span class="tit">대상 : </span><span>청소년방과후아카데미 담당자</span></p>
+                        </map>
+                        <div class="area_wrap row ml-0 mr-0">
+                            <div class="flagList d-flex p-0 col-md-6 align-items-center justify-content-center">
+
+
+                                <div class="list gapyeong tab_Con01 active">
+                                    <div class="img"><img src="../../resource/image/sub/map/gapyeong.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list yongin tab_Con02">
+                                    <div class="img"><img src="../../resource/image/sub/map/yongin.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list gwangju tab_Con03">
+                                    <div class="img"><img src="../../resource/image/sub/map/gwangju.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list goyang tab_Con04">
+                                    <div class="img"><img src="../../resource/image/sub/map/goyang.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list Gimpo tab_Con05">
+                                    <div class="img"><img src="../../resource/image/sub/map/Gimpo.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list Paju tab_Con06">
+                                    <div class="img"><img src="../../resource/image/sub/map/Paju.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list Yangju tab_Con07">
+                                    <div class="img"><img src="../../resource/image/sub/map/Yangju.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list Namyangju tab_Con08">
+                                    <div class="img"><img src="../../resource/image/sub/map/Namyangju.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list Guri tab_Con09">
+                                    <div class="img"><img src="../../resource/image/sub/map/Guri.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list Hanam tab_Con10">
+                                    <div class="img"><img src="../../resource/image/sub/map/Hanam.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list Seongnam tab_Con11">
+                                    <div class="img"><img src="../../resource/image/sub/map/Seongnam.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list Gwangmyeong tab_Con12">
+                                    <div class="img"><img src="../../resource/image/sub/map/Gwangmyeong.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con13">
+                                    <div class="img"><img src="../../resource/image/sub/map/Bucheon.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con14">
+                                    <div class="img"><img src="../../resource/image/sub/map/Pyeongtaek.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con15">
+                                    <div class="img"><img src="../../resource/image/sub/map/Anseong.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con16">
+                                    <div class="img"><img src="../../resource/image/sub/map/Icheon.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con17">
+                                    <div class="img"><img src="../../resource/image/sub/map/Yeoju.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con18">
+                                    <div class="img"><img src="../../resource/image/sub/map/Yangpyeong.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con19">
+                                    <div class="img"><img src="../../resource/image/sub/map/Pocheon.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con20">
+                                    <div class="img"><img src="../../resource/image/sub/map/Uijeongbu.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con21">
+                                    <div class="img"><img src="../../resource/image/sub/map/Dongducheon.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con22">
+                                    <div class="img"><img src="../../resource/image/sub/map/Yeoncheon.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con23">
+                                    <div class="img"><img src="../../resource/image/sub/map/Siheung.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con24">
+                                    <div class="img"><img src="../../resource/image/sub/map/Gwacheon.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con25">
+                                    <div class="img"><img src="../../resource/image/sub/map/Ansan.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con26">
+                                    <div class="img"><img src="../../resource/image/sub/map/Uiwang.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con27">
+                                    <div class="img"><img src="../../resource/image/sub/map/Gunpo.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con28">
+                                    <div class="img"><img src="../../resource/image/sub/map/Suwon.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con29">
+                                    <div class="img"><img src="../../resource/image/sub/map/Hwaseong.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con30">
+                                    <div class="img"><img src="../../resource/image/sub/map/Osan.png"
+                                            usemap="#image-map"></div>
+                                </div>
+                                <div class="list tab_Con31">
+                                    <div class="img"><img src="../../resource/image/sub/map/Anyang.png"
+                                            usemap="#image-map"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="view-file">
-                            <div class="d-flex">
-                                <div class="file-list">
-                                    <a href="javascript:void(0)" download="download">방과후아카데미 운영안.doc</a>
-                                    <a href="javascript:void(0)" download="download">실적제출협조요청서.hwp</a>
+
+
+
+
+                            <div class="select_wrap col-md-6">
+                                <div class="">
+                                    <div class="cho_place">
+                                        <p>장소별</p>
+                                        <p>경기도 전역 <span>|</span> <span>장소선택</span></p>
+                                        <label for="searchCondition" class="hidden">검색 구분</label>
+                                        <!-- <select id="searchCondition" name="searchCondition" class="select">
+                                            <option value="">경기도청</option>
+                                            <option value=""></option>
+                                            
+                                        </select> -->
+                                        <label for="searchKeyword" class="hidden">검색어 입력란</label>
+                                        <input type="text" class="inp" id="searchKeywordx" title="검색어 입력" value=""
+                                            style="width: 54.1%; margin-top:20px; height: 55px; border-radius: 0; padding:10px; border: 1px solid #e9e9e9;">
+                                        <button type="button" class="btn_search" id="btn_search2">검색</button>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="cho_area">
+                                        <p>지역별</p>
+                                        <p>경기도 전역 <span>|</span> <span>시군선택</span></p>
+                                        <label for="searchCondition" class="hidden">검색 구분</label>
+
+
+
+                                        <select id="searchCondition2x" class="select">
+                                            <option value="">전체</option>
+
+
+                                            <option value="01" selected="selected">가평군</option>
+
+
+                                            <option value="04">고양시</option>
+
+
+                                            <option value="24">과천시</option>
+
+
+                                            <option value="12">광명시</option>
+
+
+                                            <option value="03">광주시</option>
+
+
+                                            <option value="09">구리시</option>
+
+
+                                            <option value="27">군포시</option>
+
+
+                                            <option value="05">김포시</option>
+
+
+                                            <option value="08">남양주시</option>
+
+
+                                            <option value="21">동두천시</option>
+
+
+                                            <option value="13">부천시</option>
+
+
+                                            <option value="11">성남시</option>
+
+
+                                            <option value="28">수원시</option>
+
+
+                                            <option value="23">시흥시</option>
+
+
+                                            <option value="25">안산시</option>
+
+
+                                            <option value="15">안성시 </option>
+
+
+                                            <option value="31">안양시</option>
+
+
+                                            <option value="07">양주시</option>
+
+
+                                            <option value="18">양평군</option>
+
+
+                                            <option value="17">여주시</option>
+
+
+                                            <option value="22">연천군</option>
+
+
+                                            <option value="30">오산시</option>
+
+
+                                            <option value="02">용인시</option>
+
+
+                                            <option value="26">의왕시</option>
+
+
+                                            <option value="20">의정부시</option>
+
+
+                                            <option value="16">이천시</option>
+
+
+                                            <option value="06">파주시</option>
+
+
+                                            <option value="14">평택시</option>
+
+
+                                            <option value="19">포천시</option>
+
+
+                                            <option value="10">하남시 </option>
+
+
+                                            <option value="29">화성시</option>
+
+
+                                        </select>
+                                        <button type="button" class="btn_search" onclick="">검색</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="view-content" style="text-align: center;">
-                            <img src="../resource/image/sub/img-boardView01.jpg" alt="" style="margin-bottom: 3rem">
-                            경기도청소년활동진흥센터(센터장; 서재범)는 2021년 경기도 청소년방과후아카데미 연합 사업 ‘사회참여 프로젝트 청·정’의 시작을 알렸다. <br><br>
-
-                            사회참여 프로젝트 청·정(이하 청·정)은 경기도청소년활동진흥센터와 경기도 청소년방과후아카데미 24개소가 연합으로 운영하는 프로그램으로, <br>
-                            청소년들이 주체적으로 지역 사회 환경 문제를 생각하고 환경 보호 활동에 참여해 지역사회 환경 정화에 이바지하기 위한 프로그램이다.<br><br>
-
-                            청·정은 경기도 청소년방과후아카데미 실무협의회가 주축이 돼 4월 24~30일까지 연합 공동 발대식을 시작으로, <br>
-                            10월까지 각 참가 기관에서 환경 교육, 플라스틱 다이어트, EM 흙공 만들기 등 다양한 프로그램을 운영하게 된다.<br><br>
-
-                            서재범 경기도청소년활동진흥센터장은 “사회참여 프로젝트 청·정 활동으로 청소년들이 환경 문제에 대해 깊이 생각하고<br> 
-                            지역 사회를 바꾸는 활동을 하며 건강한 성장을 이루고 더불어 사는 삶을 함양하는 좋은 시간을 보내기를 바란다”고 말했다.
-                        </div>
-                        
                     </div>
                 </div>
 
@@ -791,7 +1178,7 @@
                         <a href="javascript:void(0)">거래내역 영수증거래내역 영수증거래내역 영수증거래내역 영수증거래내역 영수증거래내역 영수</a>
                     </div>
                 </div>
-                
+
                 <div class="board-bottom">
                     <div class="button-wrap">
                         <button>목록</button>

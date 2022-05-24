@@ -42,6 +42,8 @@
 
 .filter .form-group input { border-color: #dddddd; }
 
-.filter .checks input[type="radio"] + label { font-weight: 400; }
+.filter .checks input[type="radio"] + label { font-weight: 400; margin-right: 3rem; }
 
 .filter .table:last-of-type(1) tr:last-child { border-bottom: 1px solid; }
+
+.filter .search-plus .button-last { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.08)), color-stop(#ffffff), to(#ffffff)); background: linear-gradient(rgba(0, 0, 0, 0.08), #ffffff, #ffffff); padding-top: 3rem; border-top: 1px solid #000000; }

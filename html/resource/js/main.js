@@ -1,7 +1,7 @@
 $(document).ready(function () {
     se1Box1_Swiper();
     se1Box2_Swiper();
-    footer_Swiper();
+    se4_Swiper();
     se3Board();
 });    
 
@@ -31,14 +31,20 @@ function se1Box2_Swiper(){
 });
 }
 
-function footer_Swiper(){
-  var bannerSwiper = new Swiper(".banner_zon .mySwiper", {
-      navigation: {
-        nextEl: ".banner_zon .swiper-button-next",
-        prevEl: ".banner_zon .swiper-button-prev",
-      },
+function se4_Swiper(){
+  var se4Swiper = new Swiper(".se4Box .mySwiper", {
+    spaceBetween: 30,
+    slidesPerView: 2,
+    //loop: true,
+    loopFillGroupWithBlank: true,
+    navigation: {
+      nextEl: ".se4Box .swiper-button-next",
+      prevEl: ".se4Box .swiper-button-prev",
+    },
 });
 }
+
+
 
 function se3Board(){
   var $notice = $('.tab_wrap');

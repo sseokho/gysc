@@ -120,14 +120,20 @@
         margin-right: 3rem;
     }
     .table{
-        &:last-of-type(1){
-            tr{
-                &:last-child{
-                    border-bottom: 1px solid;
-                }
-
+        tr{
+            border-bottom: 1px solid #eeeeee;
+            &:last-child{
+                border-bottom: 1px solid;
             }
-            
+        }
+        
+
+    }
+    &.expand{
+        tr{
+            &:last-child{
+                border-bottom: 1px solid #eeeeee;
+            }
         }
     }
     .search-plus{

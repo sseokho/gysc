@@ -16,6 +16,20 @@
 
 .board-list__inner .button-wrap button { width: 16.4rem; height: 6rem; font-size: 1.8rem; font-weight: 600; color: #005aab; border: 1px solid #005aab; background: #ffffff; letter-spacing: -1px; }
 
+.board-list.hor ul { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; border-top: 0; margin: -1.35rem -1.5rem; }
+
+.board-list.hor ul li { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: calc((100% / 4)); padding: 0; border-bottom: none; }
+
+.board-list.hor ul li .img-wrap { max-width: 100%; width: 100%; max-height: 24.4rem; height: 100%; margin-right: 0; }
+
+.board-list.hor ul li a { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin: 1.35rem 1.5rem; border-bottom: 1px solid; }
+
+.board-list.hor .info { margin: 3rem 0; }
+
+.board-list.hor .info .tit { margin-bottom: 2remz; font-size: 2.2rem; }
+
+.board-list.hor .info .date { margin-bottom: 1.2rem; }
+
 /* paging */
 .paging__inner { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 5rem; }
 

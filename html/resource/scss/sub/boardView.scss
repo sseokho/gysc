@@ -110,18 +110,19 @@
             flex:none;
             margin-top: 5rem;
             text-align: center;
-            button{
-                width: 16.4rem;
-                height: 6rem;
-                font: {
-                    size: 1.8rem;
-                    weight:600;
-                }
-                color:#005aab;
-                border:1px solid #005aab;
-                background:#ffffff;
-                letter-spacing: -1px;
+           
+        }
+        button{
+            width: 16.4rem;
+            height: 6rem;
+            font: {
+                size: 1.8rem;
+                weight:600;
             }
+            color:#005aab;
+            border:1px solid #005aab;
+            background:#ffffff;
+            letter-spacing: -1px;
         }
     }
     &-prevnext{

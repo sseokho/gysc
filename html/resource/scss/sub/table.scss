@@ -83,7 +83,10 @@
     }
     tr{
         th, td{
-            font-size: 1.8rem;
+            font : {
+                size: 1.8rem;
+                weight:400;
+            }
             border: none;
             text-align: center;
             vertical-align: middle;
@@ -322,7 +325,19 @@
     text-align: center;
 }
 
-
+.board{
+    &-bottom{
+        margin-top: 5rem;
+        .button{
+            &-write{
+                color:#000000;
+                font-weight: 500;
+                background: #eff4ff;
+                border:1px solid #000000;
+            }
+        }
+    }
+}
 
 
 /* paging */ 

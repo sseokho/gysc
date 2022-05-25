@@ -26,7 +26,7 @@
 
 .table-wrap thead tr th { height: 6rem; font-weight: 500; color: #005aab; }
 
-.table-wrap tr th, .table-wrap tr td { font-size: 1.8rem; border: none; text-align: center; vertical-align: middle; line-height: 3.2rem; }
+.table-wrap tr th, .table-wrap tr td { font-size: 1.8rem; font-weight: 400; border: none; text-align: center; vertical-align: middle; line-height: 3.2rem; }
 
 .table-wrap td a { font-size: 1.8rem; }
 
@@ -105,6 +105,10 @@
 .table-wrap.filter tr td:nth-child(1) { padding-left: 3rem; color: #000000; font-weight: 500; }
 
 .table-title { margin-bottom: 3.5rem; font-size: 3.2rem; font-weight: 500; text-align: center; }
+
+.board-bottom { margin-top: 5rem; }
+
+.board-bottom .button-write { color: #000000; font-weight: 500; background: #eff4ff; border: 1px solid #000000; }
 
 /* paging */
 .paging__inner { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 5rem; }

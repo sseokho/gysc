@@ -46,42 +46,45 @@
        
     }
 }
-.form{
-    &-select{
-        @include display-flex;
-        height: 5rem;
-        select{
-            flex:1;
-            font-size: 1.8rem;
-            color:#555555;
-            background-color: #ffffff;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='8'%3E%3Cpath fill-rule='evenodd' fill='rgb(85, 85, 85)' d='M4.994 8.003-.001-.003h9.99L4.994 8.003Z'/%3E%3C/svg%3E");
-            border: 1px solid #dddddd;
-            &+select{
-                margin-left: 4px;
-            }
-        }
-    }
-    &-search{
-        @include display-flex;
-        margin-top: 1rem;
-        border:1px solid #dddddd;
-        input{
-            flex:1;
-            &::placeholder{
+.cho_place{
+    .form{
+        &-select{
+            @include display-flex;
+            height: 5rem;
+            select{
+                flex:1;
                 font-size: 1.8rem;
-                color:#b5b5b5;
-                
+                color:#555555;
+                background-color: #ffffff;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='8'%3E%3Cpath fill-rule='evenodd' fill='rgb(85, 85, 85)' d='M4.994 8.003-.001-.003h9.99L4.994 8.003Z'/%3E%3C/svg%3E");
+                border: 1px solid #dddddd;
+                &+select{
+                    margin-left: 4px;
+                }
             }
         }
-        .btn-search{
-            width:11.9rem;
-            color:#ffffff;
-            background:#555555;
-            font-size: 1.8rem;
+        &-search{
+            @include display-flex;
+            margin-top: 1rem;
+            border:1px solid #dddddd;
+            input{
+                flex:1;
+                &::placeholder{
+                    font-size: 1.8rem;
+                    color:#b5b5b5;
+                    
+                }
+            }
+            .btn-search{
+                width:11.9rem;
+                color:#ffffff;
+                background:#555555;
+                font-size: 1.8rem;
+            }
         }
     }
 }
+
 .hidden{
     position: absolute;
     left: -99999px;

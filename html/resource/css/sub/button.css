@@ -14,4 +14,6 @@
 
 .button-wrap .button-orange { background: #e17c02; color: #ffffff; }
 
+.button-wrap .button-write { color: #000000; font-weight: 500; background: #eff4ff; border: 1px solid #000000; }
+
 .button-small button { width: 11.9rem !important; height: 4.9rem !important; font-weight: 400; }

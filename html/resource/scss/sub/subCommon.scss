@@ -1,5 +1,6 @@
 @import "../_mixin";
 
+/* 서브 공통 */ 
 .py{
     &_2{
         padding-top: 2rem !important;
@@ -19,7 +20,9 @@
 .flex{
     -webkit-box-flex:1;-ms-flex:1;flex:1
 }
-
+button, select, input{
+    font-family: 'notokr', sans-serif;
+}
 .sub-visual{
     height: 24rem;
     &.businessInfo{

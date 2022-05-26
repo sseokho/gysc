@@ -4,16 +4,24 @@
 
 .button-wrap button + button { margin-left: .5rem; }
 
-.button-wrap .button-blue { background: #005aab; color: #ffffff; }
+.button-wrap button.button-blue { background: #005aab; color: #ffffff; }
 
-.button-wrap .button-gray { background: #dfdfdf; }
+.button-wrap button.button-gray { background: #dfdfdf; color: #000000; border: 0; }
 
-.button-wrap .button-deepgray { background: #ababab; color: #ffffff; }
+.button-wrap button.button-deepgray { background: #ababab; color: #ffffff; }
 
-.button-wrap .button-deepgray2 { background: #464646; color: #ffffff; }
+.button-wrap button.button-deepgray2 { background: #464646; color: #ffffff; }
 
-.button-wrap .button-orange { background: #e17c02; color: #ffffff; }
+.button-wrap button.button-orange { background: #e17c02; color: #ffffff; }
 
-.button-wrap .button-write { color: #000000; font-weight: 500; background: #eff4ff; border: 1px solid #000000; }
+.button-wrap button.button-write { color: #000000; font-weight: 500; background: #eff4ff; border: 1px solid #000000; }
+
+.button-wrap button.button-list { color: #005aab; border: 1px solid #005aab; background: #ffffff; letter-spacing: -1px; }
+
+.button-wrap button.button-modify { background: #e3e8f1; color: #005aab; border: 0; }
+
+.button-wrap button.button-delete { background: #f1dce2; color: #ed174f; border: none; }
+
+.button-wrap button.button-viewer { width: 12rem; height: 5rem; background: #555555; color: #ffffff !important; font-size: 1.8rem; font-weight: 300; }
 
 .button-small button { width: 11.9rem !important; height: 4.9rem !important; font-weight: 400; }

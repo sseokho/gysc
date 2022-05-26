@@ -3,23 +3,76 @@
 /* modal */ 
 .modal{
     &-content{
-        padding: 5rem 3rem;
+        min-width: 45rem;
+        
+        width: auto;
+        margin: auto;
+        padding: 6rem 5rem;
         font : {
             size: 1.8rem;
             weight:500;
         }
+        .etc{
+            input{
+                max-width: 49.2rem;
+            }
+        }
+    }
+    &-large{
+        max-width: 140rem;
+        width: 100%;
     }
     &-body{
         padding: 0;
     }
     &-title{
         margin-bottom: 3rem;
-        font-weight: 500;
+        font : {
+            size: 4.4rem;
+            weight: 600;
+        }
+        line-height: 100%;
+        &.font{
+            &_18{
+                font: {
+                    size: 1.8rem;
+                    weight:500;
+                }
+                
+            }
+        }
     }
     .button{
         &-wrap{
+            @include display-flex;
+            @include justify-center;
             button{
                 height: 5rem !important;
+                &.button{
+                    &-blue{
+                        background: #005aab;
+                        color:#ffffff;
+                    }
+                    &-gray{
+                        background: #dfdfdf;
+                        color:#000000;
+                        border:0;
+                    }
+                    &-deepgray{
+                        background: #ababab ;
+                        color: #ffffff;
+                    }
+                }
+                &+button{
+                    margin-left: .5rem;
+                }
+            }
+            &.same{
+                button{
+                    max-width: 12rem;
+                    width:100%;
+                    font-weight: 300;
+                }
             }
         }
     }

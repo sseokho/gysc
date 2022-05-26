@@ -1,8 +1,26 @@
 /* modal */
-.modal-content { padding: 5rem 3rem; font-size: 1.8rem; font-weight: 500; }
+.modal-content { min-width: 45rem; width: auto; margin: auto; padding: 6rem 5rem; font-size: 1.8rem; font-weight: 500; }
+
+.modal-content .etc input { max-width: 49.2rem; }
+
+.modal-large { max-width: 140rem; width: 100%; }
 
 .modal-body { padding: 0; }
 
-.modal-title { margin-bottom: 3rem; font-weight: 500; }
+.modal-title { margin-bottom: 3rem; font-size: 4.4rem; font-weight: 600; line-height: 100%; }
+
+.modal-title.font_18 { font-size: 1.8rem; font-weight: 500; }
+
+.modal .button-wrap { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 .modal .button-wrap button { height: 5rem !important; }
+
+.modal .button-wrap button.button-blue { background: #005aab; color: #ffffff; }
+
+.modal .button-wrap button.button-gray { background: #dfdfdf; color: #000000; border: 0; }
+
+.modal .button-wrap button.button-deepgray { background: #ababab; color: #ffffff; }
+
+.modal .button-wrap button + button { margin-left: .5rem; }
+
+.modal .button-wrap.same button { max-width: 12rem; width: 100%; font-weight: 300; }

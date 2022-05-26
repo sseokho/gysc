@@ -30,6 +30,26 @@
 
 .board-list.hor .info .date { margin-bottom: 1.2rem; }
 
+.board-list.hor2 ul { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; border-top: 0; margin: -2.5rem; }
+
+.board-list.hor2 ul li { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; width: calc(100% / 2); padding: 2.5rem; border-bottom: none; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.board-list.hor2 ul li .img-wrap { max-width: 32.8rem; width: 100%; max-height: 24.4rem; height: 100%; margin-right: 3rem; }
+
+.board-list.hor2 ul li a { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin: 1.35rem 1.5rem; border-bottom: 1px solid; }
+
+.board-list.hor2 .info { margin: 0rem 0; }
+
+.board-list.hor2 .info ul { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; height: 12rem; margin: 1.5rem 0; }
+
+.board-list.hor2 .info ul li { width: 100%; padding: 0; font-size: 1.8rem; font-weight: 500; line-height: 3rem; color: #555555; }
+
+.board-list.hor2 .info .tit { margin-bottom: 0rem; font-size: 2.2rem; }
+
+.board-list.hor2 .info .button-wrap .button-viewer { width: 12rem; height: 5rem; background: #555555; color: #ffffff; font-size: 1.8rem; font-weight: 300; }
+
+.board-list.hor2 .button-wrap { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+
 /* paging */
 .paging__inner { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 5rem; }
 

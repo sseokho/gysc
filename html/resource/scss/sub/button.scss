@@ -15,34 +15,63 @@
             &+button{
                 margin-left: .5rem;
             }
+            &.button{
+                &-blue{
+                    background: #005aab;
+                    color:#ffffff;
+                }
+                &-gray{
+                    background: #dfdfdf;
+                    color:#000000;
+                    border:0;
+                }
+                &-deepgray{
+                    background: #ababab ;
+                    color: #ffffff;
+                }
+                &-deepgray2{
+                    background: #464646 ;
+                    color: #ffffff;
+                }
+                &-orange{
+                    background: #e17c02 ;
+                    color: #ffffff;
+                }
+                &-write{
+                    color:#000000;
+                    font-weight: 500;
+                    background: #eff4ff;
+                    border:1px solid #000000;
+                }
+                &-list{
+                    color: #005aab; 
+                    border: 1px solid #005aab; 
+                    background: #ffffff; 
+                    letter-spacing: -1px;
+                }
+                &-modify{
+                    background: #e3e8f1;
+                    color:#005aab;
+                    border:0;
+                }
+                &-delete{
+                    background: #f1dce2;
+                    color:#ed174f;
+                    border:none;
+                }
+                &-viewer{
+                    width: 12rem;
+                    height: 5rem;
+                    background: #555555;
+                    color:#ffffff !important;
+                    font : {
+                        size: 1.8rem;
+                        weight:300;
+                    }
+                }
+            }
         }
-        .button{
-            &-blue{
-                background: #005aab;
-                color:#ffffff;
-            }
-            &-gray{
-                background: #dfdfdf;
-            }
-            &-deepgray{
-                background: #ababab ;
-                color: #ffffff;
-            }
-            &-deepgray2{
-                background: #464646 ;
-                color: #ffffff;
-            }
-            &-orange{
-                background: #e17c02 ;
-                color: #ffffff;
-            }
-            &-write{
-                color:#000000;
-                font-weight: 500;
-                background: #eff4ff;
-                border:1px solid #000000;
-            }
-        }
+        
     }
     &-small{
         button{

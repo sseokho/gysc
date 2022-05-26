@@ -244,7 +244,7 @@
         border-top: none;
         tr{
             td, th{
-                height: 5rem;
+                height: 6rem;
                 border:1px solid #efefef;
                 font : {
                     size: 1.8rem;
@@ -288,6 +288,16 @@
                         font-size: 1.8rem;
                         color:#555555;
 
+                    }
+                }
+                &.file{
+                    display: table-cell;
+                    border:none;
+                    a{
+                        display: inline-block;
+                        margin-right: 1rem;
+                        padding-right: 2.8rem;
+                        background: url(../../image/sub/icon-file.png) no-repeat right 0 center;
                     }
                 }
                 
@@ -339,6 +349,29 @@
     }
 }
 
+.viewer{
+    &-wrap{
+        ul{
+            margin: 0;
+            //padding: 2rem 0;
+            li{
+                @include display-flex;
+                @include align-center;
+                &+li{
+                    margin-top: .5rem
+                }
+                .button-viewer{
+                    width: 9rem;
+                    height: 4rem;
+                    font-size: 1.7rem;
+                    font-weight: 300;
+                    background: #555555;
+                    color:#ffffff;
+                }
+            }
+        }
+    }
+}
 
 /* paging */ 
 .paging{

@@ -24,7 +24,7 @@ button, select, input { font-family: 'notokr', sans-serif; }
 
 .sub-tab__inner { padding: 3.5rem 0; margin-bottom: 5rem; border-radius: .5rem; border: .2rem solid #e0e3e8; }
 
-.sub-tab ul { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.sub-tab ul { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 0; }
 
 .sub-tab ul li.on a { color: #005aab; }
 
@@ -33,3 +33,9 @@ button, select, input { font-family: 'notokr', sans-serif; }
 .sub-tab ul li + li { position: relative; }
 
 .sub-tab ul li + li::before { position: absolute; width: 1px; height: 100%; background: #bbbbbb; content: ""; }
+
+.text-notice { background: #f5f8f9; }
+
+.text-notice__inner { margin-bottom: 5rem; padding: 5rem 0; font-size: 2.2rem; font-weight: 500; line-height: 4rem; text-align: center; }
+
+/* modal */

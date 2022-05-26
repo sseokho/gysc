@@ -1,0 +1,26 @@
+@import "../_mixin";
+
+/* modal */ 
+.modal{
+    &-content{
+        padding: 5rem 3rem;
+        font : {
+            size: 1.8rem;
+            weight:500;
+        }
+    }
+    &-body{
+        padding: 0;
+    }
+    &-title{
+        margin-bottom: 3rem;
+        font-weight: 500;
+    }
+    .button{
+        &-wrap{
+            button{
+                height: 5rem !important;
+            }
+        }
+    }
+}

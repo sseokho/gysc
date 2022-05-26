@@ -626,9 +626,11 @@ h5 {
 header {
   height: 18rem;
   background-color: #fff;
+  overflow: hidden;
 }
 
 .headerTop {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -639,6 +641,27 @@ header {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 11rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.headerTop:before {
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  left: -50%;
+  bottom: -1px;
+  background-color: #e5e5e5;
+  content: '';
+}
+
+.headerTop:after {
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  right: -50%;
+  bottom: -1px;
+  background-color: #e5e5e5;
+  content: '';
 }
 
 .headerTop .socialMedia {
@@ -825,7 +848,11 @@ header {
   width: 22rem !important;
 }
 
-.footer .banner_zone .swiper-container .swiper-wrapper .swiper-slide img {
+.footer .banner_zone .swiper-container .swiper-wrapper .swiper-slide a {
+  position: absolute;
+}
+
+.footer .banner_zone .swiper-container .swiper-wrapper .swiper-slide a img {
   border: 1px solid #ddd;
 }
 

@@ -507,15 +507,35 @@ h5{
 header {
     height:18rem;
     background-color:#fff;
-    
+    overflow:hidden;
     
 }
 .headerTop {
+    position:relative;
     display:flex;
     padding: 1.7rem 0 1.5rem 0;
     justify-content: space-between;
     box-sizing: border-box;
     height: 11rem;
+    border-bottom:1px solid #e5e5e5;
+    &:before{
+        position:absolute;
+        width:50%;
+        height: 1px;
+        left: -50%;
+        bottom: -1px;
+        background-color:#e5e5e5;
+        content:'';
+    }
+    &:after{
+        position:absolute;
+        width:50%;
+        height: 1px;
+        right: -50%;
+        bottom: -1px;
+        background-color:#e5e5e5;
+        content:'';
+    }
     .socialMedia {
         display: flex;
         justify-content: space-between;
@@ -642,9 +662,13 @@ header {
                 width: calc(100% - 9.5rem);
                 .swiper-slide {
                     width:22rem !important;
-                    img {
-                        border:1px solid #ddd;
+                    a {
+                        position:absolute;
+                        img {
+                            border:1px solid #ddd;
+                        }
                     }
+                    
                 }
                 
             }

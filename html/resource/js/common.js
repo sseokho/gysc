@@ -4,9 +4,9 @@ $(document).ready(function () {
 
 
 function footer_Swiper(){
-    var bannerSwiper = new Swiper(".swiper-container.banner", {
-        loop:true,
-        slidesPerView: 5,
+    var bannerSwiper = new Swiper(".banner_zone .mySwiper", {
+        //loop:true,
+        slidesPerView: 1,
         spaceBetween: 10,
         // autoplay: {
         //     delay: 2500,

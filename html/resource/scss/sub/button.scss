@@ -4,17 +4,21 @@
     &-wrap{
         @include display-flex;
         @include justify-center;
+        @include flex-wrap;
         text-align: center;
+        margin: -.25rem;
         button{
             width: 16.4rem;
             height: 6rem;
+            margin: .25rem;
             font: {
                 size: 1.8rem;
                 weight: 500;
             }
-            &+button{
-                margin-left: .5rem;
-            }
+            line-height: 100%;
+            // &+button{
+            //     margin-left: .5rem;
+            // }
             &.button{
                 &-blue{
                     background: #005aab;
@@ -67,6 +71,32 @@
                     font : {
                         size: 1.8rem;
                         weight:300;
+                    }
+                }
+                &-border{
+                    &__green{
+                        border: 1px solid #6cac63;
+                        color: #6cac63;
+                        background: #ffffff;
+                    }
+                    &__orange{
+                        border: 1px solid #e17c02;
+                        color:#e17c02;
+                        background: #ffffff;
+                    }
+                }
+                &-print{
+                    @include display-flex;
+                    @include align-center;
+                    justify-content: space-between;
+                    padding: 0 2rem;
+                    background: #555555;
+                    color:#ffffff;
+                    i{
+                        display: inline-block;
+                        width: 1.8rem;
+                        height: 1.7rem;
+                        background: url(../../image/sub/icon-print.png);
                     }
                 }
             }

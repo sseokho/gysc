@@ -119,6 +119,8 @@
                             max-height: 24.4rem;
                             height: 100%;
                             margin-right: 3rem;
+                            border: 1px solid #eeeeee;
+                            box-sizing: border-box;
                         }
                         a{
                             @include display-flex;
@@ -167,10 +169,116 @@
                     justify-content: flex-start;
                 }
             }
+            &3{
+                ul{
+                    @include display-flex;
+                    @include flex-wrap;
+                    border-top: 0;
+                    margin: -2.5rem;
+                    li{
+                        @include display-flex;
+                        //@include flex-column;
+                        width:calc(100% / 2);
+                        padding: 2.5rem;
+                        border-bottom:none;
+                        box-sizing: border-box;
+                        .img-wrap{
+                            position: relative;
+                            max-width: 32.8rem;
+                            width: 100%;
+                            max-height: 24.4rem;
+                            height: 100%;
+                            margin-right: 3rem;
+                            border: 1px solid #eeeeee;
+                            box-sizing: border-box;
+                            .badge{
+                                @include d-flex;
+                                position: absolute;
+                                top: 0;
+                                left:0;
+                                width: 12rem;
+                                height: 5rem;
+                                border-radius: 0;
+                                font : {
+                                    size: 1.8rem;
+                                    weight: 300;
+                                }
+                                color:#ffffff;
+                                &.ing{
+                                    background: #005aab;
+                                }
+                                &.end{
+                                    background: #555555;
+                                }
+                                &.eduEnd{
+                                    background: #b8d1e8;
+                                }
+                            }
+                        }
+                        a{
+                            @include display-flex;
+                            @include flex-column;
+                            margin: 1.35rem 1.5rem;
+                            border-bottom: 1px solid;
+                        }
+                    }
+                }
+                .info{
+                    margin: 0rem 0;
+                    ul{
+                        @include flex-column;
+                        height: auto;
+                        margin: 1.5rem 0;
+                        li{
+                            width: 100%;
+                            padding: 0;
+                            font : {
+                                size: 1.8rem;
+                                weight : 500;
+                            }
+                            line-height: 3rem;
+                            color:#555555;
+                            span{
+                                color: #005aab;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                    .tit{
+                        height: 7.2rem;
+                        margin-bottom: 0rem;
+                        font-size: 2.2rem;
+                        line-height: 3.6rem;
+                        -webkit-line-clamp: 2;
+                    }
+                    .button-wrap{
+                        .button-viewer{
+                            width: 12rem;
+                            height: 5rem;
+                            background: #555555;
+                            color:#ffffff;
+                            font : {
+                                size: 1.8rem;
+                                weight:300;
+                            }
+                        }
+                    }
+    
+                }
+                .button-wrap{
+                    justify-content: flex-start;
+                }
+            }
         }
     }
 }
-
+.search-box{
+    &+.board-list{
+        &.hor2{
+            margin-top: 3.5rem;
+        }
+    }
+}
 /* paging */ 
 .paging{
     &__inner{

@@ -18,7 +18,7 @@
 /* table */
 .table-wrap { margin-bottom: 0; color: #000000; border-top: 1px solid #dddddd; }
 
-.table-wrap table { margin-bottom: 0; }
+.table-wrap table { table-layout: fixed; margin-bottom: 0; }
 
 .table-wrap thead { background: #f5f8f9; }
 
@@ -61,6 +61,8 @@
 .table-wrap td.phone i { display: inline-block; width: 1.3rem; height: 1.8rem; background: url(../../image/sub/icon-phone.png); }
 
 .table-wrap td.h-150 { min-height: 15rem !important; height: 15rem !important; padding-top: 1rem !important; padding-bottom: 1rem !important; }
+
+.table-wrap td.person span { color: #005aab !important; font-weight: 500 !important; }
 
 .table-wrap tbody tr { border-bottom: 1px solid #dddddd; }
 

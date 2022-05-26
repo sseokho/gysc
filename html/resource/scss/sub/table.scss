@@ -67,6 +67,7 @@
     color: #000000;
     border-top: 1px solid #dddddd;
     table{
+        table-layout: fixed;
         margin-bottom: 0;
     }
     thead{
@@ -184,6 +185,12 @@
             height: 15rem !important;
             padding-top: 1rem !important;
             padding-bottom: 1rem !important;
+        }
+        &.person{
+            span{
+                color: #005aab !important;
+                font-weight: 500 !important;
+            }
         }
     }
     tbody{

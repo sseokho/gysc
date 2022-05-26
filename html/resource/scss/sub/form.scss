@@ -12,6 +12,13 @@
             height: 4.9rem !important;
             font-weight: 300 !important;
         }
+        &.w{
+            &-s{
+                select, input{
+                    width: 19.5rem;
+                }
+            }
+        }
     }
     &-group {
         margin-bottom: 0;
@@ -190,7 +197,7 @@
         }
     }
     &-select {
-        height: 4.5rem;
+        height: 5rem;
         select {
             width: 23.5rem;
             height: 100%;

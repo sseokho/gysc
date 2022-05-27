@@ -13,7 +13,7 @@
             margin: .25rem;
             font: {
                 size: 1.8rem;
-                weight: 500;
+                weight: 400;
             }
             line-height: 100%;
             // &+button{
@@ -36,6 +36,14 @@
                 &-deepgray2{
                     background: #464646 ;
                     color: #ffffff;
+                }
+                &-darkgray{
+                    background: #464646 ;
+                    color: #ffffff;
+                }
+                &-black{
+                    background: #000000;
+                    color:#ffffff;
                 }
                 &-orange{
                     background: #e17c02 ;

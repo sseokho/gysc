@@ -69,6 +69,9 @@
     table{
         table-layout: fixed;
         margin-bottom: 0;
+        p{
+            font-size: 1.8rem;
+        }
     }
     thead{
         background: #f5f8f9;
@@ -345,7 +348,19 @@
 .board{
     &-bottom{
         margin-top: 5rem;
+        .button-wrap{
+            flex:none;
+            margin-top: 5rem;
+            text-align: center;
+           
+        }
         .button{
+            width: 16.4rem;
+            height: 6rem;
+            font: {
+                size: 1.8rem;
+                weight:600;
+            }
             &-write{
                 color:#000000;
                 font-weight: 500;

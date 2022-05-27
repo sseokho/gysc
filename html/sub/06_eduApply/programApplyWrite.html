@@ -11,8 +11,7 @@
     <!-- datepicker -->
     <link rel="stylesheet" href="../../resource/css/jquery-ui.css">
 
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="../../resource/css/bootstrap.min.css">
+    
 
     <!-- sub css -->
     <link rel="stylesheet" href="../../resource/css/sub/subCommon.css">
@@ -22,8 +21,11 @@
     <link rel="stylesheet" href="../../resource/css/sub/table.css">
     <link rel="stylesheet" href="../../resource/css/sub/form.css">
     <link rel="stylesheet" href="../../resource/css/sub/button.css">
-    <link rel="stylesheet" href="../../resource/css/sub/boardList.css">
+
+    
     <link rel="stylesheet" href="../../resource/css/sub/modal.css">
+
+
 
 
 
@@ -35,8 +37,7 @@
 
     <!-- datepicker -->
     <script type="text/javascript" src="../../resource/js/jquery-ui.min.js"></script>
-    <!-- bootstrap -->
-    <script type="text/javascript" src="../../resource/js/bootstrap.min.js"></script>
+    
 
     <script type="text/javascript" src="../../resource/js/swiper.min.js"></script>
     <script type="text/javascript" src="../../resource/js/common.js"></script>
@@ -742,7 +743,7 @@
                         </ul>
                     </li>
                     <li class="last">
-                        <a href="javascript:void(0);" class="active">교육신청</a>
+                        <a href="javascript:void(0);" class="active">찾아가는 프로그램 신청</a>
                         <ul style="display: none;">
                             <li><a href="javascript:void(0)">111</a></li>
                         </ul>
@@ -752,164 +753,308 @@
         </div>
         <div class="sub-container">
             <div class="sub-container__inner">
-                <div class="sub-title">청소년기관 프로그램 자료실</div>
+                <div class="sub-title">찾아가는 프로그램 신청</div>
+
+
                 <div class="sub-tab">
                     <div class="sub-tab__inner">
                         <ul>
-                            <li class="on"><a href="javascript:void(0)">전체</a></li>
-                            <li><a href="javascript:void(0)">접수중</a></li>
-                            <li><a href="javascript:void(0)">접수완료</a></li>
-                            <li><a href="javascript:void(0)">교육완료</a></li>
+                            <li><a href="javascript:void(0)">찾아가는 프로그램</a></li>
+                            <li class="on"><a href="javascript:void(0)">찾아가는 프로그램 신청</a></li>
+                            <li><a href="javascript:void(0)">자료실</a></li>
                         </ul>
                     </div>
                 </div>
 
 
 
+                <div class="table-wrap ver text-left">
+                    <table class="table">
+                        <caption>청소년기관 프로그램 자료실</caption>
+                        <colgroup>
+                            <col style="width:22rem">
+                            <col style="width:auto">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>상태</th>
+                                <td>
+                                    <div class="checks d-flex align-items-center">
+                                        <input type="radio" id="inter" name="inter" checked=""><label for="inter">신청</label>
+                                        <input type="radio" id="res" name="inter"><label for="res">취소</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>교육기관</th>
+                                <td>
+                                    교육기관입니다.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>학교/기관명</th>
+                                <td>
+                                    <div class="form-group d-flex align-items-center w-m">
+                                        <label for=""></label>
+                                        <input type="text" class="" id="" placeholder="" value="기관명입니다.">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th rowspan="3">주소</th>
+                                <td>
+                                    <div class="form-group d-flex align-items-center w-m">
+                                        <label for=""></label>
+                                        <input type="text" class="" id="" placeholder="" value="">
+                                        <button type="button" class="button-darkgray">우편번호 찾기</button>
+                                    </div>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-group d-flex align-items-center w-50">
+                                        <label for=""></label>
+                                        <input type="text" class="" id="" placeholder="">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-group d-flex align-items-center w-50">
+                                        <label for=""></label>
+                                        <input type="text" class="" id="" placeholder="">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>담당자</th>
+                                <td>
+                                    <div class="form-wrap d-flex align-items-center">
+                                        <div class="form-group d-flex align-items-center w-50">
+                                            <p class="label">직책</p>
+                                            <label for=""></label>
+                                            <input type="text" class="" id="" placeholder="">
+                                        </div>
+                                        <div class="form-group d-flex align-items-center w-50 pl_20">
+                                            <p class="label">성명</p>
+                                            <label for=""></label>
+                                            <input type="text" class="" id="" placeholder="">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">연락처</th>
+                                <td>
+                                    <div class="form-wrap d-flex align-items-center">
+                                        <div class="form-group d-flex align-items-center w-50">
+                                            <p class="label">전화</p>
+                                            <label for=""></label>
+                                            <input type="text" class="" id="" placeholder="">
+                                        </div>
+                                        <div class="form-group d-flex align-items-center w-50 pl_20">
+                                            <p class="label">팩스</p>
+                                            <label for=""></label>
+                                            <input type="text" class="" id="" placeholder="">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-wrap d-flex align-items-center">
+                                        <div class="form-group d-flex align-items-center w-50">
+                                            <p class="label">핸드폰</p>
+                                            <label for=""></label>
+                                            <input type="text" class="" id="" placeholder="">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>이메일</th>
+                                <td>
+                                    <div class="form-wrap d-flex align-items-center">
+                                        <div class="form-group d-flex align-items-center w-50">
+                                            <label for=""></label>
+                                            <input type="text" class="" id="" placeholder="">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>대상</th>
+                                <td>
+                                    <div class="d-flex align-items-center form-group w-xs">
+                                        <div class=" d-flex align-items-center mr_10 " id="">
+                                            <p class="label">대상</p>
+                                            <label for=""></label>
+                                            <input type="text" name="" value="" id="" class="form-input" placeholder="">
+                                            &nbsp;명
+                                        </div>
+                                        (&nbsp;&nbsp;
+                                        <div class="form-check">
+                                            <input type="checkbox" title="" name="" id="check1" value="">
+                                            <label for="check1">성인</label>
+                                            <input type="checkbox" title="" name="" id="check2" value="">
+                                            <label for="check2" class="ml-0">청소년</label>
+                                        </div>&nbsp;&nbsp;)&nbsp;&nbsp;
+                                        <div class="form-group d-flex align-items-center mr_10" id="">
+                                            <p class="label">초</p>
+                                            <label for=""></label>
+                                            <input type="text" name="" value="" id="" class="form-input" placeholder="">
+                                            &nbsp;명,
+                                        </div>
+                                        <div class="d-flex align-items-center mr_10" id="">
+                                            <p class="label">중</p>
+                                            <label for=""></label>
+                                            <input type="text" name="" value="" id="" class="form-input" placeholder="">
+                                            &nbsp;명,
+                                        </div>
+                                        <div class="form-group d-flex align-items-center mr_10" id="">
+                                            <p class="label">고</p>
+                                            <label for=""></label>
+                                            <input type="text" name="" value="" id="" class="form-input" placeholder="">
+                                            &nbsp;명
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>프로그램 선택 <br>
+                                    (각 내용은 자료실 참고)</th>
+                                <td>
+                                    <div class="form-check">
+                                        <input type="checkbox" title="" name="" id="check1" value="">
+                                        <label for="check1">청소년자원봉사</label>
+                                        <input type="checkbox" title="" name="" id="check2" value="">
+                                        <label for="check2">장애인식개선</label>
+                                        <input type="checkbox" title="" name="" id="check3" value="">
+                                        <label for="check3">환경교육 및 봉사</label>
+                                        <input type="checkbox" title="" name="" id="check4" value="">
+                                        <label for="check4">학교폭력예방</label>
+                                        <input type="checkbox" title="" name="" id="check5" value="">
+                                        <label for="check5" class="">청소년인성</label>
 
-                <div class="search-box">
-                    <div class="form-select d-flex w-200 ml-auto">
-                        <select class="select ">
-                            <option value="">전체</option>
-                            <option value="">2021년</option>
-                            <option value="">2020년</option>
-                        </select>
-                        <select class="select ">
-                            <option value="">구분</option>
-                            <option value="">2021년</option>
-                            <option value="">2020년</option>
-                        </select>
-                    </div>
-                    <div class="ml_5">
-                        <div class="form-search d-flex align-items-center">
-                            <input type="text" name="searchKeyword" value="" id="" class="form-input" placeholder="">
-                            <button type="submit" class="button-search"><i></i></button>
-                        </div>
-                    </div>
-                </div>
+                                        <input type="checkbox" title="" name="" id="check6" value="">
+                                        <label for="check6" class="">청소년인권</label>
 
-                <div class="board-list hor3">
-                    <div class="board-list__inner">
-                        <ul>
-                            <li>
-                                <div class="img-wrap">
-                                    <img src="../../resource/image/sub/img-eduApplyList01.jpg" alt="">
-                                    <div class="badge ing">접수중</div><!-- 전달사항 :: 접수중, 접수완료, 교육완료 class 다릅니다. 구분해주세요. -->
-                                </div>
-                                <div class="info">
-                                    <p class="tit">청소년수련활동 인증프로그램
-                                        개발 워크숍 (1기)
-                                    </p>
-                                    <ul>
-                                        <li>교육기간 : 2022-04-19 ~ 2022-04-19</li>
-                                        <li>접수기간 : 2022-03-28 ~ 2022-04-10</li>
-                                        <li>접수/정원 :&nbsp;<span>0</span>/30  </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="img-wrap">
-                                    <img src="../../resource/image/sub/img-eduApplyList01.jpg" alt="">
-                                    <div class="badge end">접수완료</div>
-                                </div>
-                                <div class="info">
-                                    <p class="tit">청소년수련활동 인증프로그램
-                                        개발 워크숍 (1기)
-                                    </p>
-                                    <ul>
-                                        <li>교육기간 : 2022-04-19 ~ 2022-04-19</li>
-                                        <li>접수기간 : 2022-03-28 ~ 2022-04-10</li>
-                                        <li>접수/정원 :&nbsp;<span>0</span>/30  </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="img-wrap">
-                                    <img src="../../resource/image/sub/img-eduApplyList01.jpg" alt="">
-                                    <div class="badge eduEnd">교육완료</div>
-                                </div>
-                                <div class="info">
-                                    <p class="tit">청소년수련활동 인증프로그램
-                                        개발 워크숍 (1기)
-                                    </p>
-                                    <ul>
-                                        <li>교육기간 : 2022-04-19 ~ 2022-04-19</li>
-                                        <li>접수기간 : 2022-03-28 ~ 2022-04-10</li>
-                                        <li>접수/정원 :&nbsp;<span>0</span>/30  </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="img-wrap">
-                                    <img src="../../resource/image/sub/img-eduApplyList01.jpg" alt="">
-                                    <div class="badge ing">접수중</div>
-                                </div>
-                                <div class="info">
-                                    <p class="tit">청소년수련활동 인증프로그램
-                                        개발 워크숍 (1기)
-                                    </p>
-                                    <ul>
-                                        <li>교육기간 : 2022-04-19 ~ 2022-04-19</li>
-                                        <li>접수기간 : 2022-03-28 ~ 2022-04-10</li>
-                                        <li>접수/정원 :&nbsp;<span>0</span>/30  </li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                                        <input type="checkbox" title="" name="" id="check7" value="">
+                                        <label for="check7" class="">청소년건강증진</label>
+
+                                        <input type="checkbox" title="" name="" id="check8" value="">
+                                        <label for="check8" class="">청소년진로</label>
+
+                                        <input type="checkbox" title="" name="" id="check9" value="">
+                                        <label for="check9" class="">과학정보</label>
+
+                                        <input type="checkbox" title="" name="" id="check10" value="">
+                                        <label for="check10" class="">교류</label>
+
+                                        <input type="checkbox" title="" name="" id="check11" value="">
+                                        <label for="check11" class="">문화예술</label>
+
+                                        <input type="checkbox" title="" name="" id="check12" value="">
+                                        <label for="check12" class="">참여</label>
+
+                                        <input type="checkbox" title="" name="" id="check13" value="">
+                                        <label for="check13" class="">민주시민</label>
+
+                                        <input type="checkbox" title="" name="" id="check14" value="">
+                                        <label for="check14" class="">사회정서</label>
+
+                                        <input type="checkbox" title="" name="" id="check15" value="">
+                                        <label for="check15" class="">기타</label>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th>프로그램명</th>
+                                <td>
+                                    <div class="form-wrap d-flex align-items-center">
+                                        <div class="form-group d-flex align-items-center w-50">
+                                            <label for=""></label>
+                                            <input type="text" class="" id="" placeholder="">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th>프로그램 일시</th>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <p class="mr_10">2022-05-17</p>
+                                        <div class="form-select d-flex w-xs">
+                                            <select class="select ">
+                                                <option value="" selected="">시</option>
+                                            </select>
+                                            <select class="select ">
+                                                <option value="" selected="">분</option>
+                                            </select>
+                                        </div>
+                                        <span style="padding: 0 0.7rem;">~</span>
+                                        <div class="form-select d-flex w-xs">
+                                            <select class="select ">
+                                                <option value="" selected="">시</option>
+                                            </select>
+                                            <select class="select ">
+                                                <option value="" selected="">분</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>기타</th>
+                                <td>
+                                    <div class="form-group">
+                                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>협조사항</th>
+                                <td>
+                                    <div class="form-group">
+                                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th>활동내용</th>
+                                <td class="py_5">
+                                    1. 요청서류가 있을 시 신청할 때 기타에 작성 바랍니다. <br>
+                                    2. 변경사항이 있을 시 7일전에 연락 바랍니다.<br>
+                                    3. 프로그램에 필요한 준비물 및 기자재 요청 시 준비 바랍니다.<br>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>비밀번호</th>
+                                <td>
+                                    <div class="form-group d-flex align-items-center">
+                                        <label for=""></label>
+                                        <input type="password" class="w-m" id="" placeholder="" value="0000">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
                 <div class="board-bottom">
-                    <div class="paging">
-                        <div class="paging__inner d-flex">
-                            <a href="javascript:void(0)" class="first "><i class="icon arrow-first"></i></a>
-                            <a href="javascript:void(0)" class="prev "><i class="icon arrow-prev"></i></a>
-                            <a href="javascript:void(0)" class="on">1</a>
-                            <a href="javascript:void(0)">2</a>
-                            <a href="javascript:void(0)">3</a>
-                            <a href="javascript:void(0)">4</a>
-                            <a href="javascript:void(0)">5</a>
-                            <a href="javascript:void(0)">6</a>
-                            <a href="javascript:void(0)">7</a>
-                            <a href="javascript:void(0)">8</a>
-                            <a href="javascript:void(0)">9</a>
-                            <a href="javascript:void(0)">10</a>
-                            <a href="javascript:void(0)" class="next"><i class="icon arrow-next"></i></a>
-                            <a href="javascript:void(0)" class="last"><i class="icon arrow-last"></i></a>
-                        </div>
+                    <div class="button-wrap">
+                        <button type="button" class="button-list">목록</button>
+                        <button type="button" class="button-modify">수정</button>
                     </div>
                 </div>
 
 
-                <!-- Modal -->
-                <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <!-- <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div> -->
-                            <div class="modal-body text-center">
-                                <div class="modal-title font_18">비밀번호를 입력해주세요.</div>
-                                <div class="form-group d-flex align-items-center">
-                                    <label for=""></label>
-                                    <input type="text" class="w-m" id="" placeholder="">
-                                </div>
-                                <div class="button-wrap" style="margin-top: 4px;">
-                                    <button type="button" class="button-blue w-100"
-                                        onclick="location.href='./youthOrgProgramDataWrite.html'">확인</button>
-                                </div>
-
-                            </div>
-                            <!-- <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-
+            
 
 
 

@@ -19,9 +19,29 @@
                 }
             }
         }
+        .label{
+            margin-right:1rem;
+        }
     }
     &-group {
         margin-bottom: 0;
+        &.w{
+            &-xs{
+                select, input{
+                    width: 10rem;
+                }
+            }
+            &-s{
+                select, input{
+                    width: 19.5rem;
+                }
+            }
+            &-m{
+                select, input{
+                    width: 23.5rem;
+                }
+            }
+        }
         input {
             width:100%;
             height: 5rem;
@@ -53,16 +73,29 @@
                 color:#555555;
             }
         }
-
         textarea {
             width: 100%;
-            height: 20rem;
+            height: 15rem;
+            margin: 1rem 0;
             border: .1rem solid #cccccc;
             resize: unset;
             border-radius: 0;
             -webkit-appearance: none;
         }
-        
+        button{
+            width: 11.3rem;
+            height: 5rem;
+            margin-left: 0.5rem;
+            font-size: 1.6rem;
+            color: #ffffff;
+            background-color: #464646;
+        }
+        p{
+            font-size: 1.8rem;
+            flex:none;
+            margin-bottom: 0;
+            margin-right: .5rem;
+        }
     }
     &-check {
         position: relative;
@@ -70,7 +103,7 @@
         //margin: 0 0 0 -1.5rem;
         @include display-flex;
         @include flex-wrap;
-        margin: -.9rem -1.5rem;
+        margin: -.5rem -1.5rem;
         input {
             height: auto ;
             &[type='checkbox'] {
@@ -86,7 +119,7 @@
                     @include display-flex;
                     @include align-center;
                     position: relative;
-                    margin: .9rem 1.5rem;
+                    margin: .5rem 1.5rem;
                     cursor: pointer;
                     font : {
                         size: 1.8rem;
@@ -197,6 +230,15 @@
         }
     }
     &-select {
+        &.w{
+            &-xs{
+                select, input{
+                    width: 12rem;
+                }
+            }
+        }
+        font-size: 1.8rem;
+        
         height: 5rem;
         select {
             width: 23.5rem;

@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../../resource/css/sub/location.css">
 
     <!-- style css -->
+    <link rel="stylesheet" href="../../resource/css/sub/eduApply.css">
     <link rel="stylesheet" href="../../resource/css/sub/table.css">
     <link rel="stylesheet" href="../../resource/css/sub/form.css">
     <link rel="stylesheet" href="../../resource/css/sub/button.css">
@@ -766,92 +767,131 @@
                     </div>
                 </div>
 
-
-
-                <div class="apply_wrap">
-                    <div class="adjust-month__wrap">
-                        <div class="adjust-month">
-                            <button class="prev_month" type="button" id="_prevBtn"></button>
-                            <p class="current_month">
-                                <span class="_calYear">2022년</span>
-                                <span class="_calMonth"> 05월</span>
-                            </p>
-                            <button class="next_month" type="button" id=""></button>
+                <div class="top-des program">
+                    <div class="top-des__inner ">
+                        <div class="sub-title2__color--blue">찾아가는 프로그램신청</div>
+                        <div class="top-des__content">
+                            <dl>
+                                <div>
+                                    <dt>참가대상</dt>
+                                    <dd>   만 9세 ~ 24세 청소년</dd>
+                                </div>
+                                <div>
+                                    <dt>신청시기</dt>
+                                    <dd>   방문교육 실시 한달 전 인터넷 사전 신청</dd>
+                                </div>
+                                <div>
+                                    <dt>신청방법</dt>
+                                    <dd>방문교육  희망일 클릭> 작성> 신청</dd>
+                                </div>
+                                <div>
+                                    <dt>주의사항</dt>
+                                    <dd>   - 방송 또는 체육관 전체 집합강의 신청 불가(＊학급단위  진행) <br>
+                                        - 교육비 유료 : 신청 기관 및 단체 부담(＊신청 프로그램별 상이 / 자료실 확인</dd>
+                                </div>
+                            </dl>
                         </div>
-                        <div class="search-box">
-                            <div class="form-select d-flex w-200 ml-auto">
-                                <select class="select ">
-                                    <option value="">2022년</option>
-                                    <option value="">2021년</option>
-                                    <option value="">2020년</option>
-                                </select>
-                                <select class="select ">
-                                    <option value="">5월</option>
-                                </select>
+                    </div>
+                </div>
+
+                <div class="mt_50">
+                    <div class="sub-title2">운영절차</div>
+                    <div class="border-box">
+                        <div class="border-box__inner d-flex align-items-center justify-content-center">
+                            <img src="../../resource/image/sub/img-programApplySch01.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="mt_50">
+                    
+                    <div class="apply_wrap">
+                        <div class="adjust-month__wrap">
+                            <div class="adjust-month">
+                                <button class="prev_month" type="button" id="_prevBtn"></button>
+                                <p class="current_month">
+                                    <span class="_calYear">2022년</span>
+                                    <span class="_calMonth"> 05월</span>
+                                </p>
+                                <button class="next_month" type="button" id=""></button>
                             </div>
-                            <button type="submit" class="button-search ml_5"><i></i></button>
+                            <div class="search-box">
+                                <div class="form-select d-flex w-200 ml-auto">
+                                    <select class="select ">
+                                        <option value="">2022년</option>
+                                        <option value="">2021년</option>
+                                        <option value="">2020년</option>
+                                    </select>
+                                    <select class="select ">
+                                        <option value="">5월</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="button-search ml_5"><i></i></button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="weekly_list">
-                        <ul>
-                            <li>일</li>
-                            <li>월</li>
-                            <li>화</li>
-                            <li>수</li>
-                            <li>목</li>
-                            <li>금</li>
-                            <li>토</li>
-                        </ul>
-                    </div>
-                    <div class="month_list" id="_calBody">
-                        <ul>
-                            <li><a href="javascript:void(0);"><span>1</span></a></li>
-                            <li><a href="javascript:void(0);"><span>2</span></a></li>
-                            <li><a href="javascript:void(0);"><span>3</span></a></li>
-                            <li><a href="javascript:void(0);"><span>4</span></a></li>
-                            <li><a href="javascript:void(0);"><span>5</span></a></li>
-                            <li><a href="javascript:void(0);"><span>6</span></a></li>
-                            <li><a href="javascript:void(0);"><span>7</span></a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="javascript:void(0);"><span>8</span></a></li>
-                            <li><a href="javascript:void(0);"><span>9</span></a></li>
-                            <li><a href="javascript:void(0);"><span>10</span></a></li>
-                            <li><a href="javascript:void(0);"><span>11</span></a></li>
-                            <li><a href="javascript:void(0);"><span>12</span></a></li>
-                            <li><a href="javascript:void(0);"><span>13</span></a></li>
-                            <li><a href="javascript:void(0);"><span>14</span></a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="javascript:void(0);"><span>15</span></a></li>
-                            <li><a href="javascript:void(0);"><span>16</span></a></li>
-                            <li><a href="javascript:void(0);"><span>17</span></a></li>
-                            <li><a href="javascript:void(0);" data-toggle="modal" data-target="#modal"><span>18</span>
-                                    <p class="badge">교육확정</p>
-                                    <p>찾아가는청소년활동 구석
-                                        구석프로젝트&lt;동두천&gt;</p>
-                                </a></li>
-                            <li><a href="javascript:void(0);"><span>19</span></a></li>
-                            <li><a href="javascript:void(0);"><span>20</span></a></li>
-                            <li><a href="javascript:void(0);"><span>21</span></a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="javascript:void(0);"><span>22</span></a></li>
-                            <li><a href="javascript:void(0);"><span>23</span></a></li>
-                            <li><a href="javascript:void(0);"><span>24</span>
-                                    <p class="badge">교육확정</p>
-                                    <p>청소년참여위원회 면접</p>
-                                </a></li>
-                            <li><a href="javascript:void(0);"><span>25</span></a></li>
-                            <li><a href="javascript:void(0);"><span>26</span></a></li>
-                            <li class="today"><a href="javascript:void(0);"><span>27</span></a></li>
-                            <li><a href="javascript:void(0);"><span>28</span></a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="javascript:void(0);"><span>29</span></a></li>
-                            <li><a href="javascript:void(0);"><span>30</span></a></li>
-                            <li><a href="javascript:void(0);"><span>31</span></a></li>
-                        </ul>
+                        <div class="weekly_list">
+                            <ul>
+                                <li>일</li>
+                                <li>월</li>
+                                <li>화</li>
+                                <li>수</li>
+                                <li>목</li>
+                                <li>금</li>
+                                <li>토</li>
+                            </ul>
+                        </div>
+                        <div class="month_list" id="_calBody">
+                            <ul>
+                                <li><a href="javascript:void(0);"><span>1</span></a></li>
+                                <li><a href="javascript:void(0);"><span>2</span></a></li>
+                                <li><a href="javascript:void(0);"><span>3</span></a></li>
+                                <li><a href="javascript:void(0);"><span>4</span></a></li>
+                                <li><a href="javascript:void(0);"><span>5</span></a></li>
+                                <li><a href="javascript:void(0);"><span>6</span></a></li>
+                                <li><a href="javascript:void(0);"><span>7</span></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="javascript:void(0);"><span>8</span></a></li>
+                                <li><a href="javascript:void(0);"><span>9</span></a></li>
+                                <li><a href="javascript:void(0);"><span>10</span></a></li>
+                                <li><a href="javascript:void(0);"><span>11</span></a></li>
+                                <li><a href="javascript:void(0);"><span>12</span></a></li>
+                                <li><a href="javascript:void(0);"><span>13</span></a></li>
+                                <li><a href="javascript:void(0);"><span>14</span></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="javascript:void(0);"><span>15</span></a></li>
+                                <li><a href="javascript:void(0);"><span>16</span></a></li>
+                                <li><a href="javascript:void(0);"><span>17</span></a></li>
+                                <li><a href="javascript:void(0);" data-toggle="modal" data-target="#modal"><span>18</span>
+                                        <p class="badge">교육확정</p>
+                                        <p>찾아가는청소년활동 구석
+                                            구석프로젝트&lt;동두천&gt;</p>
+                                    </a></li>
+                                <li><a href="javascript:void(0);"><span>19</span></a></li>
+                                <li><a href="javascript:void(0);"><span>20</span></a></li>
+                                <li><a href="javascript:void(0);"><span>21</span></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="javascript:void(0);"><span>22</span></a></li>
+                                <li><a href="javascript:void(0);"><span>23</span></a></li>
+                                <li><a href="javascript:void(0);"><span>24</span>
+                                        <p class="badge">교육확정</p>
+                                        <p>청소년참여위원회 면접</p>
+                                    </a></li>
+                                <li><a href="javascript:void(0);"><span>25</span></a></li>
+                                <li><a href="javascript:void(0);"><span>26</span></a></li>
+                                <li class="today"><a href="javascript:void(0);"><span>27</span></a></li>
+                                <li><a href="javascript:void(0);"><span>28</span></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="javascript:void(0);"><span>29</span></a></li>
+                                <li><a href="javascript:void(0);"><span>30</span></a></li>
+                                <li><a href="javascript:void(0);"><span>31</span></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 

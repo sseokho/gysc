@@ -1,0 +1,32 @@
+@import "../_mixin";
+
+.top-des{
+    background-color: #f5f8f9;
+    background-repeat: no-repeat;   
+    &.program{
+        background-image: url(../../image/sub/bg-programApplySch.png);   
+        background-position: right 14.3rem bottom;
+    }
+    &__inner{
+        padding: 5rem 6rem;   
+    }
+    dl{
+        font-size: 1.8rem;
+        >div{
+            @include display-flex;
+            &+div{
+                margin-top: 1rem;
+            }
+        }
+        dt{
+            margin-right: 1.2rem;
+            margin-bottom: 0;
+            line-height: 3rem;
+        }
+        dd{
+            margin-bottom: 0;
+            line-height: 3rem;
+            font-weight: 500;
+        }
+    }
+}

@@ -20,6 +20,8 @@
 
 .table-wrap table { table-layout: fixed; margin-bottom: 0; }
 
+.table-wrap table p { font-size: 1.8rem; }
+
 .table-wrap thead { background: #f5f8f9; }
 
 .table-wrap thead tr { border-bottom: 1px solid #dddddd; }
@@ -113,6 +115,10 @@
 .table-title { margin-bottom: 3.5rem; font-size: 3.2rem; font-weight: 500; text-align: center; }
 
 .board-bottom { margin-top: 5rem; }
+
+.board-bottom .button-wrap { -webkit-box-flex: 0; -ms-flex: none; flex: none; margin-top: 5rem; text-align: center; }
+
+.board-bottom .button { width: 16.4rem; height: 6rem; font-size: 1.8rem; font-weight: 600; }
 
 .board-bottom .button-write { color: #000000; font-weight: 500; background: #eff4ff; border: 1px solid #000000; }
 

@@ -1,6 +1,6 @@
 .button-wrap { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; text-align: center; margin: -.25rem; }
 
-.button-wrap button { width: 16.4rem; height: 6rem; margin: .25rem; font-size: 1.8rem; font-weight: 500; line-height: 100%; }
+.button-wrap button { width: 16.4rem; height: 6rem; margin: .25rem; font-size: 1.8rem; font-weight: 400; line-height: 100%; }
 
 .button-wrap button.button-blue { background: #005aab; color: #ffffff; }
 
@@ -9,6 +9,10 @@
 .button-wrap button.button-deepgray { background: #ababab; color: #ffffff; }
 
 .button-wrap button.button-deepgray2 { background: #464646; color: #ffffff; }
+
+.button-wrap button.button-darkgray { background: #464646; color: #ffffff; }
+
+.button-wrap button.button-black { background: #000000; color: #ffffff; }
 
 .button-wrap button.button-orange { background: #e17c02; color: #ffffff; }
 

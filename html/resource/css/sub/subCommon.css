@@ -2,9 +2,15 @@
 /* 서브 공통 */
 .py_2 { padding-top: 2rem !important; padding-bottom: 2rem !important; }
 
+.pl_20 { padding-left: 2rem; }
+
+.ml-0 { margin-left: 0 !important; }
+
 .align-items-center { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .justify-content-end { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+
+.justify-content-center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 .flex { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
 
@@ -22,6 +28,8 @@ button, select, input { font-family: 'notokr', sans-serif; }
 
 .sub-title2 { margin-bottom: 3rem; font-size: 2.4rem; font-weight: 600; }
 
+.sub-title2__color--blue { margin-bottom: 3rem; font-size: 2.4rem; font-weight: 600; color: #005aab; }
+
 .sub-tab__inner { padding: 3.5rem 0; margin-bottom: 5rem; border-radius: .5rem; border: .2rem solid #e0e3e8; }
 
 .sub-tab ul { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 0; }
@@ -34,8 +42,16 @@ button, select, input { font-family: 'notokr', sans-serif; }
 
 .sub-tab ul li + li::before { position: absolute; width: 1px; height: 100%; background: #bbbbbb; content: ""; }
 
+.w-50 { width: 50%; }
+
+.w-100 { width: 100%; }
+
 .text-notice { background: #f5f8f9; }
 
 .text-notice__inner { margin-bottom: 5rem; padding: 5rem 0; font-size: 2.2rem; font-weight: 500; line-height: 4rem; text-align: center; }
 
-/* modal */
+dl { font-size: 1.8rem; }
+
+dl > div { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; }
+
+.border-box__inner { padding: 5rem 0; border: 1px solid #dfdfdf; }

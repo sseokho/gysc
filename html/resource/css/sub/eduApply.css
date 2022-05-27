@@ -1,1 +1,15 @@
-@charset "utf-8";
+.top-des { background-color: #f5f8f9; background-repeat: no-repeat; }
+
+.top-des.program { background-image: url(../../image/sub/bg-programApplySch.png); background-position: right 14.3rem bottom; }
+
+.top-des__inner { padding: 5rem 6rem; }
+
+.top-des dl { font-size: 1.8rem; }
+
+.top-des dl > div { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; }
+
+.top-des dl > div + div { margin-top: 1rem; }
+
+.top-des dl dt { margin-right: 1.2rem; margin-bottom: 0; line-height: 3rem; }
+
+.top-des dl dd { margin-bottom: 0; line-height: 3rem; font-weight: 500; }

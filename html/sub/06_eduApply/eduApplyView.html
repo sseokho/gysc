@@ -729,7 +729,7 @@
     <div class="container">
         <div class="sub-visual businessInfo">
             <div class="sub-visual__inner">
-                정보제공
+                교육신청
             </div>
         </div>
         <div class="breadcrumbs">
@@ -737,13 +737,13 @@
                 <a href="javascript:void(0);" class="home">HOME</a>
                 <ul class="category">
                     <li>
-                        <a href="javascript:void(0);">정보제공</a>
+                        <a href="javascript:void(0);">교육신청</a>
                         <ul style="display: none;">
                             <li><a href="javascript:void(0)">111</a></li>
                         </ul>
                     </li>
                     <li class="last">
-                        <a href="javascript:void(0);" class="active">청소년활동정보</a>
+                        <a href="javascript:void(0);" class="active">교육신청</a>
                         <ul style="display: none;">
                             <li><a href="javascript:void(0)">111</a></li>
                         </ul>
@@ -862,6 +862,9 @@
                             <button type="button" class="button-border__green" data-toggle="modal"
                                 data-target="#modal2">참가확인</button>
                             <button type="button" class="button-border__orange">문의사항</button>
+                            <button type="button" class="button-black" data-toggle="modal"
+                            data-target="#modal2">교육수료증 출력
+                            </button>
                             <button type="button" class="button-list">목록</button>
                         </div>
                     </div>
@@ -1236,7 +1239,7 @@
 <script>
     $(function () {
 
-        $('#modal2').click(function () {
+        $('button[data-target="#modal3"]').click(function () {
             $('#modal2').css("display", "none");
             //$('body').addClass('modal-open');
             $('#modal3').modal('show');

@@ -19,13 +19,16 @@
     <link rel="stylesheet" href="../../resource/css/sub/location.css">
 
     <!-- style css -->
+    <link rel="stylesheet" href="../../resource/css/sub/eduApply.css">
     <link rel="stylesheet" href="../../resource/css/sub/table.css">
     <link rel="stylesheet" href="../../resource/css/sub/form.css">
     <link rel="stylesheet" href="../../resource/css/sub/button.css">
     <link rel="stylesheet" href="../../resource/css/sub/boardList.css">
     <link rel="stylesheet" href="../../resource/css/sub/modal.css">
+    <link rel="stylesheet" href="../../resource/css/sub/calendar.css">
 
-    
+
+
 
 
 
@@ -728,7 +731,7 @@
     <div class="container">
         <div class="sub-visual businessInfo">
             <div class="sub-visual__inner">
-                정보제공
+                교육신청
             </div>
         </div>
         <div class="breadcrumbs">
@@ -736,13 +739,13 @@
                 <a href="javascript:void(0);" class="home">HOME</a>
                 <ul class="category">
                     <li>
-                        <a href="javascript:void(0);">정보제공</a>
+                        <a href="javascript:void(0);">교육신청</a>
                         <ul style="display: none;">
                             <li><a href="javascript:void(0)">111</a></li>
                         </ul>
                     </li>
                     <li class="last">
-                        <a href="javascript:void(0);" class="active">청소년활동정보</a>
+                        <a href="javascript:void(0);" class="active">찾아가는 프로그램 신청</a>
                         <ul style="display: none;">
                             <li><a href="javascript:void(0)">111</a></li>
                         </ul>
@@ -752,138 +755,151 @@
         </div>
         <div class="sub-container">
             <div class="sub-container__inner">
-                <div class="sub-title">청소년기관 프로그램 자료실</div>
+                <div class="sub-title">찾아가는 프로그램 신청</div>
+
                 <div class="sub-tab">
                     <div class="sub-tab__inner">
                         <ul>
-                            <li><a href="javascript:void(0)">청소년기관 현황</a></li>
-                            <li><a href="javascript:void(0)">청소년기관 홍보</a></li>
-                            <li ><a href="javascript:void(0)">청소년기관 프로그램(e-청소년)</a></li>
-                            <li class="on"><a href="javascript:void(0)">청소년기관 프로그램 자료실</a></li>
+                            <li><a href="javascript:void(0)">찾아가는 프로그램</a></li>
+                            <li class="on"><a href="javascript:void(0)">찾아가는 프로그램 신청</a></li>
+                            <li><a href="javascript:void(0)">자료실</a></li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="text-notice">
-                    <div class="text-notice__inner">
-                        본 게시판은 청소년기관 프로그램 자료실 입니다.  <br>
-                        운영의 목적에 부합하지 않은 글은 삭제처리할 수 있음을 알려드립니다.<br>
-                        비밀번호는 진흥센터에서 공유하는 번호로 작성 부탁드립니다.
-                    </div>
-                </div>
-
-
-
-                <div class="search-box">
-                    <div class="form-select d-flex w-200 ml-auto">
-                        <select class="select ">
-                            <option value="">전체</option>
-                            <option value="">2021년</option>
-                            <option value="">2020년</option>
-                        </select>
-                        <select class="select ">
-                            <option value="">구분</option>
-                            <option value="">2021년</option>
-                            <option value="">2020년</option>
-                        </select>
-                    </div>
-                    <div class="ml_5">
-                        <div class="form-search d-flex align-items-center">
-                            <input type="text" name="searchKeyword" value="" id="" class="form-input" placeholder="">
-                            <button type="submit" class="button-search"><i></i></button>
+                <div class="top-des program">
+                    <div class="top-des__inner ">
+                        <div class="sub-title2__color--blue">찾아가는 프로그램신청</div>
+                        <div class="top-des__content">
+                            <dl>
+                                <div>
+                                    <dt>참가대상</dt>
+                                    <dd>   만 9세 ~ 24세 청소년</dd>
+                                </div>
+                                <div>
+                                    <dt>신청시기</dt>
+                                    <dd>   방문교육 실시 한달 전 인터넷 사전 신청</dd>
+                                </div>
+                                <div>
+                                    <dt>신청방법</dt>
+                                    <dd>방문교육  희망일 클릭> 작성> 신청</dd>
+                                </div>
+                                <div>
+                                    <dt>주의사항</dt>
+                                    <dd>   - 방송 또는 체육관 전체 집합강의 신청 불가(＊학급단위  진행) <br>
+                                        - 교육비 유료 : 신청 기관 및 단체 부담(＊신청 프로그램별 상이 / 자료실 확인</dd>
+                                </div>
+                            </dl>
                         </div>
                     </div>
                 </div>
 
-                <div class="table-wrap">
-                    <table class="table">
-                        <caption>소개 공지사항 테이블</caption>
-                        <colgroup>
-                            <col style="width:11.5rem">
-
-                            <col style="width:auto">
-                            <col style="width:17rem">
-                            <col style="width:8.7rem">
-                            <col style="width:17rem">
-                            <col style="width:13.7rem">
-                            <col style="width:16.8rem">
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th scope="col">번호</th>
-                                <th scope="col">제목</th>
-                                <th scope="col">작성자</th>
-                                <th scope="col">공개여부</th>
-                                <th scope="col">현황</th>
-                                <th scope="col">작성일</th>
-                                <th scope="col">조회수</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="num">공지</td>
-                                <td class="tit">
-                                    <a href="./youthOrgProgramDataView.html">3월 21일 구매했습니다3월 21일 구매했습니다3월 21일 구매했습니다3월 21일 구매했습니다3월
-                                        21일 구매했습니다3월 21일 구매했습니다3월 21일 구매했습니다3월 21일 구매했습니다</a>
-                                </td>
-                                <td class="author">홍길동</td>
-                                <td>공개</td>
-                                <td>대기</td>
-                                <td class="date">2022-04-28</td>
-                                <td class="hit">10</td>
-                            </tr>
-                            <tr>
-                                <td class="num">10</td>
-                                <td class="tit">
-                                    <a href="javascript:void(0)">3월 21일 구매했습니다3월 21일 구매했습니다3월 21일 구매했습니다3월 21일 구매했습니다3월
-                                        21일 구매했습니다3월 21일 구매했습니다3월 21일 구매했습니다3월 21일 구매했습니다</a>
-                                </td>
-                                <td class="author">홍길동</td>
-                                <td>공개</td>
-                                <td>대기</td>
-                                <td class="date">2022-04-28</td>
-                                <td class="hit">10</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
+                <div class="mt_50">
+                    <div class="sub-title2">운영절차</div>
+                    <div class="border-box">
+                        <div class="border-box__inner d-flex align-items-center justify-content-center">
+                            <img src="../../resource/image/sub/img-programApplySch01.png" alt="">
+                        </div>
+                    </div>
                 </div>
 
-                <div class="board-bottom">
-                    <div class="button-wrap">
-                        <button type="button" class="button-write" data-toggle="modal" data-target="#modal">글쓰기</button>
-                    </div>
-                    <div class="paging">
-                        <div class="paging__inner d-flex">
-                            <a href="javascript:void(0)" class="first "><i class="icon arrow-first"></i></a>
-                            <a href="javascript:void(0)" class="prev "><i class="icon arrow-prev"></i></a>
-                            <a href="javascript:void(0)" class="on">1</a>
-                            <a href="javascript:void(0)">2</a>
-                            <a href="javascript:void(0)">3</a>
-                            <a href="javascript:void(0)">4</a>
-                            <a href="javascript:void(0)">5</a>
-                            <a href="javascript:void(0)">6</a>
-                            <a href="javascript:void(0)">7</a>
-                            <a href="javascript:void(0)">8</a>
-                            <a href="javascript:void(0)">9</a>
-                            <a href="javascript:void(0)">10</a>
-                            <a href="javascript:void(0)" class="next"><i class="icon arrow-next"></i></a>
-                            <a href="javascript:void(0)" class="last"><i class="icon arrow-last"></i></a>
+
+
+                <div class="mt_50">
+                    
+                    <div class="apply_wrap">
+                        <div class="adjust-month__wrap">
+                            <div class="adjust-month">
+                                <button class="prev_month" type="button" id="_prevBtn"></button>
+                                <p class="current_month">
+                                    <span class="_calYear">2022년</span>
+                                    <span class="_calMonth"> 05월</span>
+                                </p>
+                                <button class="next_month" type="button" id=""></button>
+                            </div>
+                            <div class="search-box">
+                                <div class="form-select d-flex w-200 ml-auto">
+                                    <select class="select ">
+                                        <option value="">2022년</option>
+                                        <option value="">2021년</option>
+                                        <option value="">2020년</option>
+                                    </select>
+                                    <select class="select ">
+                                        <option value="">5월</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="button-search ml_5"><i></i></button>
+                            </div>
+                        </div>
+                        <div class="weekly_list">
+                            <ul>
+                                <li>일</li>
+                                <li>월</li>
+                                <li>화</li>
+                                <li>수</li>
+                                <li>목</li>
+                                <li>금</li>
+                                <li>토</li>
+                            </ul>
+                        </div>
+                        <div class="month_list" id="_calBody">
+                            <ul>
+                                <li><a href="javascript:void(0);"><span>1</span></a></li>
+                                <li><a href="javascript:void(0);"><span>2</span></a></li>
+                                <li><a href="javascript:void(0);"><span>3</span></a></li>
+                                <li><a href="javascript:void(0);"><span>4</span></a></li>
+                                <li><a href="javascript:void(0);"><span>5</span></a></li>
+                                <li><a href="javascript:void(0);"><span>6</span></a></li>
+                                <li><a href="javascript:void(0);"><span>7</span></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="javascript:void(0);"><span>8</span></a></li>
+                                <li><a href="javascript:void(0);"><span>9</span></a></li>
+                                <li><a href="javascript:void(0);"><span>10</span></a></li>
+                                <li><a href="javascript:void(0);"><span>11</span></a></li>
+                                <li><a href="javascript:void(0);"><span>12</span></a></li>
+                                <li><a href="javascript:void(0);"><span>13</span></a></li>
+                                <li><a href="javascript:void(0);"><span>14</span></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="javascript:void(0);"><span>15</span></a></li>
+                                <li><a href="javascript:void(0);"><span>16</span></a></li>
+                                <li><a href="javascript:void(0);"><span>17</span></a></li>
+                                <li><a href="javascript:void(0);" data-toggle="modal" data-target="#modal"><span>18</span>
+                                        <p class="badge">교육확정</p>
+                                        <p>찾아가는청소년활동 구석
+                                            구석프로젝트&lt;동두천&gt;</p>
+                                    </a></li>
+                                <li><a href="javascript:void(0);"><span>19</span></a></li>
+                                <li><a href="javascript:void(0);"><span>20</span></a></li>
+                                <li><a href="javascript:void(0);"><span>21</span></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="javascript:void(0);"><span>22</span></a></li>
+                                <li><a href="javascript:void(0);"><span>23</span></a></li>
+                                <li><a href="javascript:void(0);"><span>24</span>
+                                        <p class="badge">교육확정</p>
+                                        <p>청소년참여위원회 면접</p>
+                                    </a></li>
+                                <li><a href="javascript:void(0);"><span>25</span></a></li>
+                                <li><a href="javascript:void(0);"><span>26</span></a></li>
+                                <li class="today"><a href="javascript:void(0);"><span>27</span></a></li>
+                                <li><a href="javascript:void(0);"><span>28</span></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="javascript:void(0);"><span>29</span></a></li>
+                                <li><a href="javascript:void(0);"><span>30</span></a></li>
+                                <li><a href="javascript:void(0);"><span>31</span></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
 
 
                 <!-- Modal -->
-                <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
+                <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                            <!-- <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div> -->
                             <div class="modal-body text-center">
                                 <div class="modal-title font_18">비밀번호를 입력해주세요.</div>
                                 <div class="form-group d-flex align-items-center">
@@ -891,14 +907,13 @@
                                     <input type="text" class="w-m" id="" placeholder="">
                                 </div>
                                 <div class="button-wrap" style="margin-top: 4px;">
-                                    <button type="button" class="button-blue w-100" onclick="location.href='./youthOrgProgramDataWrite.html'">확인</button>
+                                    <button type="button" class="button-gray flex" data-dismiss="modal" aria-label="Close">취소</button>
+                                    <button type="button" class="button-blue flex"
+                                        onclick="location.href='./programApplyWrite.html'">확인</button>
                                 </div>
-                                
+
                             </div>
-                            <!-- <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div> -->
+                            
                         </div>
                     </div>
                 </div>
@@ -932,7 +947,7 @@
 </body>
 
 <script>
-  
+
 </script>
 
 </html>

@@ -68,6 +68,18 @@ function se1Box1_Swiper(){
 	mySwiper.on('touchMove', function () {
 		$('.box1_btn .swiper-progress-bar .progress').stop().parent().addClass('stopped');
 	});
+  
+
+  $('.box1_btn .swiper-button-pause').click(function(){
+		if($(this).hasClass('off')){
+			$(this).removeClass('off');
+			mySwiper.autoplay.start();
+		}else{
+			$(this).addClass('off');
+			mySwiper.autoplay.stop();
+      $('.box1_btn .swiper-progress-bar .progress').stop().parent().addClass('stopped');
+		}
+	});
 }
 
 function se1Box2_Swiper(){

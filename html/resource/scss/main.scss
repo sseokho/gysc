@@ -85,6 +85,9 @@
                             background: url(../../resource/image/common/icon/icon_pause_b.png)no-repeat center center;
                             transform: translate(-50%, -50%);
                             cursor: pointer;
+                            &.off {
+                                background: url(../../resource/image/common/icon/icon_play_b.png)no-repeat center center;
+                            }
                         }
                         .swiper-button-next {
                             top: 50%;

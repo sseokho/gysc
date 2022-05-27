@@ -99,6 +99,10 @@
   cursor: pointer;
 }
 
+.se1 .se1Wrap .se1Box1 .swiper .box1_btn .btnBox .swiper-button-pause.off {
+  background: url(../../resource/image/common/icon/icon_play_b.png) no-repeat center center;
+}
+
 .se1 .se1Wrap .se1Box1 .swiper .box1_btn .btnBox .swiper-button-next {
   top: 50%;
   right: 0;

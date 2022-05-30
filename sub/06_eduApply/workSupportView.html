@@ -11,20 +11,21 @@
     <!-- datepicker -->
     <link rel="stylesheet" href="../../resource/css/jquery-ui.css">
 
-    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../../resource/css/bootstrap.min.css">
 
     <!-- sub css -->
     <link rel="stylesheet" href="../../resource/css/sub/subCommon.css">
     <link rel="stylesheet" href="../../resource/css/sub/location.css">
 
     <!-- style css -->
+    <link rel="stylesheet" href="../../resource/css/sub/eduApply.css">
     <link rel="stylesheet" href="../../resource/css/sub/table.css">
     <link rel="stylesheet" href="../../resource/css/sub/form.css">
     <link rel="stylesheet" href="../../resource/css/sub/button.css">
-
-    
+    <link rel="stylesheet" href="../../resource/css/sub/boardList.css">
     <link rel="stylesheet" href="../../resource/css/sub/modal.css">
-
+    <link rel="stylesheet" href="../../resource/css/sub/calendar.css">
 
 
 
@@ -37,7 +38,8 @@
 
     <!-- datepicker -->
     <script type="text/javascript" src="../../resource/js/jquery-ui.min.js"></script>
-    
+    <!-- bootstrap -->
+    <script type="text/javascript" src="../../resource/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="../../resource/js/swiper.min.js"></script>
     <script type="text/javascript" src="../../resource/js/common.js"></script>
@@ -743,7 +745,7 @@
                         </ul>
                     </li>
                     <li class="last">
-                        <a href="javascript:void(0);" class="active">찾아가는 프로그램 신청</a>
+                        <a href="javascript:void(0);" class="active">업무지원서비스</a>
                         <ul style="display: none;">
                             <li><a href="javascript:void(0)">111</a></li>
                         </ul>
@@ -753,21 +755,9 @@
         </div>
         <div class="sub-container">
             <div class="sub-container__inner">
-                <div class="sub-title">찾아가는 프로그램 신청</div>
+                <div class="sub-title">업무지원서비스</div>
 
-
-                <div class="sub-tab">
-                    <div class="sub-tab__inner">
-                        <ul>
-                            <li><a href="javascript:void(0)">찾아가는 프로그램</a></li>
-                            <li class="on"><a href="javascript:void(0)">찾아가는 프로그램 신청</a></li>
-                            <li><a href="javascript:void(0)">자료실</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-
-
+                
                 <div class="table-wrap ver text-left">
                     <table class="table">
                         <caption>청소년기관 프로그램 자료실</caption>
@@ -779,10 +769,7 @@
                             <tr>
                                 <th>상태</th>
                                 <td>
-                                    <div class="checks d-flex align-items-center">
-                                        <input type="radio" id="inter" name="inter" checked=""><label for="inter">신청</label>
-                                        <input type="radio" id="res" name="inter"><label for="res">취소</label>
-                                    </div>
+                                    접수중
                                 </td>
                             </tr>
                             <tr>
@@ -794,37 +781,23 @@
                             <tr>
                                 <th>학교/기관명</th>
                                 <td>
-                                    <div class="form-group d-flex align-items-center w-m">
-                                        <label for=""></label>
-                                        <input type="text" class="" id="" placeholder="" value="기관명입니다.">
-                                    </div>
+                                    기관
                                 </td>
                             </tr>
                             <tr>
                                 <th rowspan="3">주소</th>
                                 <td>
-                                    <div class="form-group d-flex align-items-center w-m">
-                                        <label for=""></label>
-                                        <input type="text" class="" id="" placeholder="" value="">
-                                        <button type="button" class="button-darkgray">우편번호 찾기</button>
-                                    </div>
-                                    
+                                    주소주소
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="form-group d-flex align-items-center w-50">
-                                        <label for=""></label>
-                                        <input type="text" class="" id="" placeholder="">
-                                    </div>
+                                    주소주소
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="form-group d-flex align-items-center w-50">
-                                        <label for=""></label>
-                                        <input type="text" class="" id="" placeholder="">
-                                    </div>
+                                    주소주소
                                 </td>
                             </tr>
                             <tr>
@@ -841,19 +814,9 @@
                                             <tbody>
                                                 <tr>
                                                     <th>직책</th>
-                                                    <td>
-                                                        <div class="form-group d-flex align-items-center w-100">
-                                                            <label for=""></label>
-                                                            <input type="text" class="" id="" placeholder="">
-                                                        </div>
-                                                    </td>
+                                                    <td>직책</td>
                                                     <th>성명</th>
-                                                    <td>
-                                                        <div class="form-group d-flex align-items-center w-100 ">
-                                                            <label for=""></label>
-                                                            <input type="text" class="" id="" placeholder="">
-                                                        </div>
-                                                    </td>
+                                                    <td>성명</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -875,23 +838,14 @@
                                             <tbody>
                                                 <tr>
                                                     <th>전화</th>
-                                                    <td>
-                                                        <div class="form-group d-flex align-items-center w-100">
-                                                            <label for=""></label>
-                                                            <input type="text" class="" id="" placeholder="">
-                                                        </div>
-                                                    </td>
+                                                    <td>전화</td>
                                                     <th>팩스</th>
-                                                    <td>
-                                                        <div class="form-group d-flex align-items-center w-100 ">
-                                                            <label for=""></label>
-                                                            <input type="text" class="" id="" placeholder="">
-                                                        </div>
-                                                    </td>
+                                                    <td>팩스</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
+                                    
                                 </td>
                             </tr>
                             <tr>
@@ -905,42 +859,33 @@
                                             <tbody>
                                                 <tr>
                                                     <th>핸드폰</th>
-                                                    <td>
-                                                        <div class="form-group d-flex align-items-center w-100">
-                                                            <label for=""></label>
-                                                            <input type="text" class="" id="" placeholder="">
-                                                        </div>
-                                                    </td>
+                                                    <td>핸드폰</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
+                                    
                                 </td>
                             </tr>
                             <tr>
                                 <th>이메일</th>
                                 <td>
-                                    <div class="form-wrap d-flex align-items-center">
-                                        <div class="form-group d-flex align-items-center w-50">
-                                            <label for=""></label>
-                                            <input type="text" class="" id="" placeholder="">
-                                        </div>
-                                    </div>
+                                    이메일
                                 </td>
                             </tr>
                             <tr>
                                 <th>대상</th>
                                 <td>
-                                    <div class="d-flex align-items-center form-group w-xs">
+                                    <div class="d-flex align-items-center form-group w-xs text-center">
                                         <div class=" d-flex align-items-center mr_10 " id="">
                                             <p class="label">대상</p>
                                             <label for=""></label>
-                                            <input type="text" name="" value="" id="" class="form-input" placeholder="">
+                                            <input type="text" name="" value="10" id="" class="form-input " placeholder="">
                                             &nbsp;명
                                         </div>
                                         (&nbsp;&nbsp;
                                         <div class="form-check">
-                                            <input type="checkbox" title="" name="" id="check1" value="">
+                                            <input type="checkbox" title="" name="" id="check1" value="" checked>
                                             <label for="check1">성인</label>
                                             <input type="checkbox" title="" name="" id="check2" value="">
                                             <label for="check2" class="ml-0">청소년</label>
@@ -948,19 +893,19 @@
                                         <div class="form-group d-flex align-items-center mr_10" id="">
                                             <p class="label">초</p>
                                             <label for=""></label>
-                                            <input type="text" name="" value="" id="" class="form-input" placeholder="">
+                                            <input type="text" name="" value="10" id="" class="form-input" placeholder="">
                                             &nbsp;명,
                                         </div>
                                         <div class="d-flex align-items-center mr_10" id="">
                                             <p class="label">중</p>
                                             <label for=""></label>
-                                            <input type="text" name="" value="" id="" class="form-input" placeholder="">
+                                            <input type="text" name="" value="10" id="" class="form-input" placeholder="">
                                             &nbsp;명,
                                         </div>
                                         <div class="form-group d-flex align-items-center mr_10" id="">
                                             <p class="label">고</p>
                                             <label for=""></label>
-                                            <input type="text" name="" value="" id="" class="form-input" placeholder="">
+                                            <input type="text" name="" value="10" id="" class="form-input" placeholder="">
                                             &nbsp;명
                                         </div>
                                     </div>
@@ -971,7 +916,7 @@
                                     (각 내용은 자료실 참고)</th>
                                 <td>
                                     <div class="form-check">
-                                        <input type="checkbox" title="" name="" id="check1" value="">
+                                        <input type="checkbox" title="" name="" id="check1" value="" checked>
                                         <label for="check1">청소년자원봉사</label>
                                         <input type="checkbox" title="" name="" id="check2" value="">
                                         <label for="check2">장애인식개선</label>
@@ -1018,54 +963,28 @@
                             <tr>
                                 <th>프로그램명</th>
                                 <td>
-                                    <div class="form-wrap d-flex align-items-center">
-                                        <div class="form-group d-flex align-items-center w-50">
-                                            <label for=""></label>
-                                            <input type="text" class="" id="" placeholder="">
-                                        </div>
-                                    </div>
+                                    프로그램명 입니다.
                                 </td>
                             </tr>
 
                             <tr>
                                 <th>프로그램 일시</th>
                                 <td>
-                                    <div class="d-flex align-items-center">
-                                        <p class="mr_10">2022-05-17</p>
-                                        <div class="form-select d-flex w-xs">
-                                            <select class="select ">
-                                                <option value="" selected="">시</option>
-                                            </select>
-                                            <select class="select ">
-                                                <option value="" selected="">분</option>
-                                            </select>
-                                        </div>
-                                        <span style="padding: 0 0.7rem;">~</span>
-                                        <div class="form-select d-flex w-xs">
-                                            <select class="select ">
-                                                <option value="" selected="">시</option>
-                                            </select>
-                                            <select class="select ">
-                                                <option value="" selected="">분</option>
-                                            </select>
-                                        </div>
-                                    </div>
+                                    2022-05-16  9시 40분 ~ 11시 50분
+
                                 </td>
                             </tr>
                             <tr>
                                 <th>기타</th>
                                 <td>
-                                    <div class="form-group">
-                                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                                    </div>
+                                    기타기타
                                 </td>
                             </tr>
                             <tr>
                                 <th>협조사항</th>
                                 <td>
-                                    <div class="form-group">
-                                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                                    </div>
+                                    1. 변경사항이 있을 시 5일전에 미리 연락주시기 바랍니다. <br>
+                                    2. 교육에 필요한 준비물 및 기자재를 요청시 준비하여 주시기 바랍니다.
                                 </td>
                             </tr>
 
@@ -1091,16 +1010,88 @@
                     </table>
                 </div>
 
-                <div class="board-bottom">
+                <div class="table-wrap ver text-left mt_30">
+                    <table class="table">
+                        <caption>청소년기관 프로그램 자료실</caption>
+                        <colgroup>
+                            <col style="width:22rem">
+                            <col style="width:auto">
+                            <col style="width:22rem">
+                            <col style="width:auto">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>담당자</th>
+                                <td>홍길동</td>
+                                <th>담당자 기관</th>
+                                <td>경기도청소년</td>
+                            </tr>
+                            <tr>
+                                <th>담당자</th>
+                                <td>홍길동</td>
+                                <th>담당자 기관</th>
+                                <td>경기도청소년</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="mt_50">
                     <div class="button-wrap">
                         <button type="button" class="button-list">목록</button>
-                        <button type="button" class="button-modify">수정</button>
+                        <button type="button" class="button-green">후기작성</button>
+                        <button type="button" class="button-black" data-toggle="modal"
+                        data-target="#modal3">교육참가확인서</button>
                     </div>
                 </div>
 
 
-            
+                 <!-- 교육참가확인서 확인 Modal3 -->
+                 <div class="modal fade" id="modal3">
+                    <div class="modal-dialog modal-dialog-centered modal-receipt">
+                        <div class="modal-content modal-large w-">
+                            <div class="modal-body text-left">
+                                <div class="d-flex flex-column">
+                                    <div class="modal-title text-center">교육참가확인서</div>
+                                    <div class="receipt-header">
+                                        ※교육명 : 사회참여 프로젝트 '청정'담당자 사전교육 <br>
+                                        ※교육기간 : 2022-04-06 ~ 2022-04-06<br>
+                                        ※교육시간 : 14:00 ~ 16:00<br>
+                                        ※교육장소 : 비대면<br>
+                                        ※접수기간 : 2022-03-30 ~ 2022-04-05
+                                    </div>
+                                    <div class="receipt-content">
+                                        <ul>
+                                            <li><span class="tit">성명</span>홍길동</li>
+                                            <li><span class="tit">생년월일</span>1996-04-30</li>
+                                            <li><span class="tit">소속</span></li>
+                                            <li><span class="tit">직위</span>방과후담임</li>
+                                        </ul>
+                                    </div>
+                                    <div class="mt-auto">
+                                        <div class="receipt-footer">
+                                            <img src="../../resource/image/sub/receipt-footer.png" alt="">
+                                        </div>
+    
+    
+                                        <div class="button-wrap">
+                                            <button type="button" class="button-print">출력하기<i></i></button>
+                                            <button type="button" class="button-deepgray">신청취소</button>
+                                        </div>
 
+                                    </div>
+                                    
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            
 
 
             </div>
@@ -1110,7 +1101,7 @@
     <!-- start::footer -->
     <footer class="footer">
         <div class="footer_wrap">
-            <div class="banner_zone container d-flex align-items-center">
+            <div class="banner_zone container d-flex align-items-center ">
                 <div class="inner">
                     <div class="zone">유관기관 zone</div>
                     <div class=" swiper-container mySwiper banner">

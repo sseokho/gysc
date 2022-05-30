@@ -10,7 +10,7 @@
 
 .board-list__inner .info .date { margin-bottom: 1.5rem; }
 
-.board-list__inner .info .date, .board-list__inner .info .target { font-size: 1.8rem; font-weight: 500; color: #555555; }
+.board-list__inner .info .date, .board-list__inner .info .target { overflow: hidden; text-overflow: ellipsis; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; font-size: 1.8rem; font-weight: 500; color: #555555; }
 
 .board-list__inner .button-wrap { -webkit-box-flex: 0; -ms-flex: none; flex: none; margin-left: auto; }
 

@@ -38,6 +38,7 @@
                     margin-bottom: 1.5rem;
                 }
                 .date, .target{
+                    @include text-overflow;
                     font: {
                         size: 1.8rem;
                         weight:500;

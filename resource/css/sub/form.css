@@ -107,7 +107,7 @@
 
 .checks input[type="radio"]:checked + label::before { background: #1165b1; border-color: #1165b1; }
 
-.checks input[type="radio"]:checked + label::after { content: ''; position: absolute; left: .6rem; width: .6rem; height: .6rem; background: #ffffff; border-radius: 100%; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+.checks input[type="radio"]:checked + label::after { content: ''; position: absolute; left: .65rem; width: .6rem; height: .6rem; background: #ffffff; border-radius: 100%; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
 
 /* 파일첨부 */
 .filebox input[type="file"] { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }

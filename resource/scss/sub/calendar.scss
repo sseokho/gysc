@@ -113,7 +113,6 @@
         background: #fff;
         color: #555;
         overflow-y: auto;
-        
         &+li{
             border-left: 0;
         }
@@ -182,6 +181,7 @@
             background: #e5eef6;
             line-height: 2rem;
             letter-spacing: -.048em;
+            box-sizing: border-box;
             &+p{
                 margin-top: .2rem;
             }

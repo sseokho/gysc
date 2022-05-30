@@ -45,7 +45,7 @@
 
 .receipt-header { padding: 3rem; font-size: 1.8rem; border-top: 1px solid #dddddd; border-bottom: 1px solid #dddddd; color: #555555; line-height: 3rem; }
 
-.receipt-content { padding: 4rem 3rem; font-size: 1.8rem; font-weight: 500; }
+.receipt-content { min-height: 46rem; padding: 4rem 3rem; font-size: 1.8rem; font-weight: 500; }
 
 .receipt-content ul li { line-height: 4.5rem; }
 

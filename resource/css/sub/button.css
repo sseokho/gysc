@@ -4,6 +4,8 @@
 
 .button-wrap button.button-blue { background: #005aab; color: #ffffff; }
 
+.button-wrap button.button-deepblue { background: #00294e; color: #ffffff; }
+
 .button-wrap button.button-gray { background: #dfdfdf; color: #000000; border: 0; }
 
 .button-wrap button.button-deepgray { background: #ababab; color: #ffffff; }
@@ -15,6 +17,8 @@
 .button-wrap button.button-black { background: #000000; color: #ffffff; }
 
 .button-wrap button.button-orange { background: #e17c02; color: #ffffff; }
+
+.button-wrap button.button-green { background: #6cac63; color: #ffffff; }
 
 .button-wrap button.button-write { color: #000000; font-weight: 500; background: #eff4ff; border: 1px solid #000000; }
 
@@ -35,3 +39,5 @@
 .button-wrap button.button-print i { display: inline-block; width: 1.8rem; height: 1.7rem; background: url(../../image/sub/icon-print.png); }
 
 .button-small button { width: 11.9rem !important; height: 4.9rem !important; font-weight: 400; }
+
+.button-small button.w-auto { width: auto !important; padding: 0 3rem; }

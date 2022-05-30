@@ -195,6 +195,9 @@
                 font-weight: 500 !important;
             }
         }
+        .table-wrap{
+            border-top:0;
+        }
     }
     tbody{
         tr{
@@ -447,5 +450,12 @@
                 margin-left: 1px;
             }
         }
+    }
+}
+
+.total{
+    font : {
+        size: 2rem;
+        weight: 500;
     }
 }

@@ -24,6 +24,10 @@
                     background: #005aab;
                     color:#ffffff;
                 }
+                &-deepblue{
+                    background: #00294e;
+                    color:#ffffff;
+                }
                 &-gray{
                     background: #dfdfdf;
                     color:#000000;
@@ -47,6 +51,10 @@
                 }
                 &-orange{
                     background: #e17c02 ;
+                    color: #ffffff;
+                }
+                &-green{
+                    background: #6cac63 ;
                     color: #ffffff;
                 }
                 &-write{
@@ -116,6 +124,12 @@
             width: 11.9rem !important; 
             height: 4.9rem !important;
             font-weight: 400 ;
+            &.w{
+                &-auto{
+                    width: auto !important;
+                    padding: 0 3rem;
+                }
+            }
         }
     }
 }

@@ -8,6 +8,8 @@
 
 .ml-0 { margin-left: 0 !important; }
 
+.ml-auto { margin-left: auto; }
+
 .mr-auto { margin-right: auto; }
 
 .align-items-center { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }

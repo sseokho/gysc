@@ -30,6 +30,8 @@
 
 .button-wrap button.button-viewer { width: 12rem; height: 5rem; background: #555555; color: #ffffff !important; font-size: 1.8rem; font-weight: 300; }
 
+.button-wrap button.button-url { background: #dfdfdf; color: #005aab !important; }
+
 .button-wrap button.button-border__green { border: 1px solid #6cac63; color: #6cac63; background: #ffffff; }
 
 .button-wrap button.button-border__orange { border: 1px solid #e17c02; color: #e17c02; background: #ffffff; }
@@ -41,3 +43,5 @@
 .button-small button { width: 11.9rem !important; height: 4.9rem !important; font-weight: 400; }
 
 .button-small button.w-auto { width: auto !important; padding: 0 3rem; }
+
+.button-url { width: 9rem; height: 4rem; margin-left: auto; background: #dfdfdf; color: #005aab !important; }

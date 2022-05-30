@@ -104,7 +104,7 @@
 
 .table-wrap.thin tbody td.tit a { font-size: 1.8rem; color: #555555; }
 
-.table-wrap.thin tbody td.file { display: table-cell; border: none; }
+.table-wrap.thin tbody td.file { display: table-cell; border: 0; border-right: 1px solid #efefef; }
 
 .table-wrap.thin tbody td.file a { display: inline-block; margin-right: 1rem; padding-right: 2.8rem; background: url(../../image/sub/icon-file.png) no-repeat right 0 center; }
 

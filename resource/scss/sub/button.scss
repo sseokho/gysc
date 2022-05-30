@@ -89,6 +89,10 @@
                         weight:300;
                     }
                 }
+                &-url{
+                    background: #dfdfdf;
+                    color:#005aab !important;
+                }
                 &-border{
                     &__green{
                         border: 1px solid #6cac63;
@@ -131,5 +135,12 @@
                 }
             }
         }
+    }
+    &-url{
+        width: 9rem;
+        height: 4rem;
+        margin-left: auto;
+        background: #dfdfdf;
+        color:#005aab !important;
     }
 }

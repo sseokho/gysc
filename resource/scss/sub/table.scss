@@ -305,7 +305,8 @@
                 }
                 &.file{
                     display: table-cell;
-                    border:none;
+                    border:0;
+                    border-right:1px solid #efefef;
                     a{
                         display: inline-block;
                         margin-right: 1rem;

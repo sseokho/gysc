@@ -4,7 +4,7 @@
 
 .breadcrumbs .container .home { width: 7rem; background: url(../../image/sub/icon-home.png) no-repeat center; background-size: 2.6rem 2.5rem; border-left: 1px solid #eeeeee; border-right: 1px solid #eeeeee; font-size: 0; }
 
-.breadcrumbs .category { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; }
+.breadcrumbs .category { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; margin: 0; }
 
 .breadcrumbs .category > li { width: 34rem; -webkit-box-sizing: border-box; box-sizing: border-box; border-right: 1px solid #eeeeee; }
 

@@ -68,7 +68,9 @@
             }
             &.date{
                 width: 19.6rem;
-                background: url(../../image/sub/icon-date.png) no-repeat right 1rem center;
+                background-image: url(../../image/sub/icon-date.png);
+                background-repeat: no-repeat;
+                background-position: right 1rem center;
                 font-size: 1.8rem;
                 color:#555555;
             }

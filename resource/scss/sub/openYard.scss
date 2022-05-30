@@ -255,4 +255,18 @@
     }
     
 }
+.inquiry{
+    &__inner{
+        @include display-flex;
+        @include flex-column;
+        @include align-center;
+        padding: 5rem 0;
+        background: #ffeb00;
+        button{
+            margin-top: 1rem;
+            padding: 0;
+            background: transparent;
+        }
+    }
+}
 

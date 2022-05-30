@@ -26,6 +26,16 @@
                 }
             }
             .info{
+                p{
+                    font: {
+                        size: 1.8rem;
+                        weight:500;
+                    }
+                    color:#555555;
+                    &+p{
+                        margin-top: 1.5rem;
+                    }
+                }
                 .tit{
                     margin-bottom: 3rem;
                     @include text-overflow;
@@ -33,6 +43,7 @@
                         size: 2.4rem;
                         weight: 500;
                     }
+                    color:#000000;
                 }
                 .date{
                     margin-bottom: 1.5rem;

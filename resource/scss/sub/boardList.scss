@@ -107,6 +107,7 @@
                     border-top: 0;
                     margin: -2.5rem;
                     li{
+                        
                         @include display-flex;
                         //@include flex-column;
                         width:calc(100% / 2);
@@ -137,6 +138,7 @@
                         height: 12rem;
                         margin: 1.5rem 0;
                         li{
+                            @include text-overflow;
                             width: 100%;
                             padding: 0;
                             font : {

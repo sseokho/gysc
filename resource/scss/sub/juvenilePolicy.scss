@@ -6,6 +6,12 @@
             li{
                 @include display-flex;
                 @include align-center;
+                padding:2rem 3rem 2rem 5rem;
+                border: 1px solid #dddddd;
+                border-radius: .5rem;
+                &+li{
+                    margin-top: 1rem;
+                }
             }
         }
         .info{
@@ -78,9 +84,41 @@
             .to{
                 @include display-flex;
                 margin-right: 3rem;
-                font : {
-                    size:1.8rem;
-                    weight:500;
+                p{
+                    font : {
+                        size:1.8rem;
+                        weight:500;
+                    }
+                    &+p{
+                        position: relative;
+                        margin-left: 2.6rem;
+                        &::before{
+                            position: absolute;
+                            left: -1.3rem;
+                            width:1px;
+                            height:1.8rem;
+                            background: #cccccc;
+                            content:""
+                        }
+                    }
+                    span{
+                        color:#005aab;
+                        font-weight: 600;
+                    }
+                }
+               
+            }
+            .button-wrap{
+                button{
+                    width: 12rem;
+                    height: 5rem;
+                    font : {
+                        size: 1.8rem;
+                        weight:500;
+                    }
+                    color:#005aab;
+                    background: #eaf3fa;
+                    border : 1px dashed #005aab;
                 }
             }
         }

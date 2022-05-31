@@ -1,4 +1,6 @@
-.volunteer__inner ul li { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.volunteer__inner ul li { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 2rem 3rem 2rem 5rem; border: 1px solid #dddddd; border-radius: .5rem; }
+
+.volunteer__inner ul li + li { margin-top: 1rem; }
 
 .volunteer__inner .info { padding-top: 1.8rem; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
 
@@ -20,4 +22,14 @@
 
 .volunteer__inner .apply { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.volunteer__inner .apply .to { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; margin-right: 3rem; font-size: 1.8rem; font-weight: 500; }
+.volunteer__inner .apply .to { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; margin-right: 3rem; }
+
+.volunteer__inner .apply .to p { font-size: 1.8rem; font-weight: 500; }
+
+.volunteer__inner .apply .to p + p { position: relative; margin-left: 2.6rem; }
+
+.volunteer__inner .apply .to p + p::before { position: absolute; left: -1.3rem; width: 1px; height: 1.8rem; background: #cccccc; content: ""; }
+
+.volunteer__inner .apply .to p span { color: #005aab; font-weight: 600; }
+
+.volunteer__inner .apply .button-wrap button { width: 12rem; height: 5rem; font-size: 1.8rem; font-weight: 500; color: #005aab; background: #eaf3fa; border: 1px dashed #005aab; }

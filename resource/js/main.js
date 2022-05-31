@@ -24,7 +24,7 @@ function se1Box1_Swiper(){
 	
 	var mySwiper = new Swiper ('.se1Box1 .mySwiper', options);
 	
-	var slidersCount = mySwiper.params.loop ? mySwiper.slides.length - 2 : mySwiper.slides.length;
+	var slidersCount = mySwiper.params.loop;
 	var widthParts = 100 / slidersCount;
 	
 	$('.box1_btn .swiper-counter .total').html(slidersCount);

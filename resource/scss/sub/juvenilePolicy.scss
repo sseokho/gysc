@@ -1,0 +1,88 @@
+@import "../_mixin";
+
+.volunteer{
+    &__inner{
+        ul{
+            li{
+                @include display-flex;
+                @include align-center;
+            }
+        }
+        .info{
+            padding-top: 1.8rem;
+            flex:1;
+            p{
+                @include text-overflow;
+                font : {
+                    size:1.8rem;
+                    weight:500;
+                }
+                color:#555555;
+                &+p{
+                    margin-top: 1.5rem;
+                }
+            }
+            .tit{
+                margin-bottom: 2rem;
+                font-size: 2.3rem;
+                color:#000000;
+            }
+        }
+        .type{
+            @include d-flex;
+            @include flex-column;
+            width: 15.6rem;
+            height: 19.5rem;
+            margin-right: 5rem;
+            border:1px solid #005aab;
+            border-radius: .5rem;
+            .area{
+                display: inline-block;
+                position:relative;
+                margin-bottom: 4rem;
+                color:#ffffff;
+                font : {
+                    size: 1.8rem;
+                    weight:500;
+                }
+                &::before{
+                    position:absolute;
+                    top: 50%;
+                    left:50%;
+                    width: 5.3rem;
+                    height:5.3rem;
+                    background:#005aab;
+                    border-radius: 100%;
+                    content:'';
+                    z-index: -1;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            .vtype{
+                margin-bottom: 2.5rem;
+                font : {
+                    size:2.2rem;
+                    weight:600;
+                }
+            }
+            .time{
+                font : {
+                    size:1.8rem;
+                    weight:500;
+                }
+            }
+        }
+        .apply{
+            @include display-flex;
+            @include align-center;
+            .to{
+                @include display-flex;
+                margin-right: 3rem;
+                font : {
+                    size:1.8rem;
+                    weight:500;
+                }
+            }
+        }
+    }
+}

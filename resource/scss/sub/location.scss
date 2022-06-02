@@ -82,13 +82,20 @@
 ==================================================================================================*/ 
 
 
-@media screen and(max-width:1200px) {
-      
-}
 
 @media screen and(max-width:720px){
-   
-    
+    .breadcrumbs{
+        .container{
+            .home{
+                display: none;
+            }
+        }
+        .category{
+            >li{
+                max-width: none;
+            }
+        }
+    }
 }
 
 @media screen and(max-width:375px){

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    subDepth2()
+    subDepth2();
     footer_Swiper();
 });    
 

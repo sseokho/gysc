@@ -48,13 +48,15 @@
                         a{
                             padding: 0 3rem;
                             background: #005aab;
-                            &:hover {color:#005aab;}
+                            &:hover {
+                                color:#005aab;
+                            }
                         }
                     }
                 }
             }
             &.last{
-                background: #000;
+                background: #005aab;
                 box-shadow: .8rem .8rem 1.8rem rgba(0,0,0,0.28);
                 border-right: 0;
                 >a{
@@ -81,13 +83,20 @@
 ==================================================================================================*/ 
 
 
-@media screen and(max-width:1200px) {
-      
-}
 
 @media screen and(max-width:720px){
-   
-    
+    .breadcrumbs{
+        .container{
+            .home{
+                display: none;
+            }
+        }
+        .category{
+            >li{
+                max-width: none;
+            }
+        }
+    }
 }
 
 @media screen and(max-width:375px){

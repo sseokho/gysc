@@ -116,7 +116,7 @@
 
 .table-wrap.table-auto table { table-layout: auto; }
 
-.table-wrap.table-auto tr td, .table-wrap.table-auto tr th { border: 1px solid #efefef; }
+.table-wrap.table-auto tr td, .table-wrap.table-auto tr th { height: 6rem; border: 1px solid #efefef; }
 
 .table-wrap > p { margin-top: 1rem; font-size: 1.8rem; font-weight: 500; text-align: right; }
 

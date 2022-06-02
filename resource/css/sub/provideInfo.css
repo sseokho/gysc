@@ -35,3 +35,7 @@
 .cho_place .form-search .btn-search { width: 11.9rem; color: #ffffff; background: #555555; font-size: 1.8rem; }
 
 .hidden { position: absolute; left: -99999px; top: -99999px; width: 1px; height: 1px; }
+
+.youthPop__inner { font-size: 2.2rem; }
+
+.youthPop__inner * { font-size: 2.2rem; line-height: 4rem; }

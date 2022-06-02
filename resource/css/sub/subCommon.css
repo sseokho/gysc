@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* 서브 공통 */
+p { margin-bottom: 0; }
+
 .py_2 { padding-top: 2rem !important; padding-bottom: 2rem !important; }
 
 .pl_20 { padding-left: 2rem; }
@@ -28,6 +30,8 @@ button, select, input { font-family: 'notokr', sans-serif; }
 
 .text-center input { text-align: center !important; text-indent: 0 !important; }
 
+.color-orange { color: #fd7201; }
+
 .sub-visual { height: 24rem; }
 
 .sub-visual.businessInfo { background: url(../../image/sub/sub-visual__02.jpg) no-repeat center; }
@@ -41,6 +45,8 @@ button, select, input { font-family: 'notokr', sans-serif; }
 .sub-title2 { margin-bottom: 3rem; font-size: 2.4rem; font-weight: 600; }
 
 .sub-title2__color--blue { margin-bottom: 3rem; font-size: 2.4rem; font-weight: 600; color: #005aab; }
+
+.sub-title3 { margin-bottom: 3rem; font-size: 2.2rem; font-weight: 600; text-align: left; }
 
 .sub-des { font-size: 2rem; font-weight: 500; margin-bottom: 5rem; }
 

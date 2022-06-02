@@ -42,12 +42,12 @@
                     li{
                         height: 7rem;
                         border:1px solid #eeeeee;
+                        background: #fff;
                         &+li{
                             margin-top: -1px;
                         }
                         a{
                             padding: 0 3rem;
-                            background: #005aab;
                             &:hover {color:#005aab;}
                         }
                     }
@@ -59,6 +59,7 @@
                 border-right: 0;
                 >a{
                     color:#ffffff;
+
                     background-image:url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='10'%3E%3Cpath fill-rule='evenodd' fill='rgb(255, 255, 255)' d='M15.989 2.36 8.36 9.989 7.011 8.64l.107-.107L.293 1.707 1.707.293l6.826 6.825 6.107-6.107 1.349 1.349Z'/%3E%3C/svg%3E");
                 }
             }

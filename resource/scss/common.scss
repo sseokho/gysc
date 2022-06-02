@@ -19,7 +19,7 @@
         
         &:hover, &:focus, &:active {
             position:Absolute;
-            padding:15px 0;
+            padding:0.15rem 0;
             left:0;
             color:#000;
             font-size:2rem;
@@ -260,7 +260,7 @@ $font-weight__b : 600;
 .mt_120{margin-top: 12rem;}
 .my_4{margin-top: 4rem; margin-bottom: 4rem;}
 .mx_2{margin-left: 2rem; margin-right: 2rem;}
-.pl_10{padding-left:10px;}
+.pl_10{padding-left:1rem;}
 .p{
     &d_{
         &0{
@@ -608,7 +608,7 @@ header {
                     align-items: center;
                     overflow: hidden;
                     color: #000;
-                    font-size: 20px;
+                    font-size: 2rem;
                     justify-content: space-around;
                     &.active{
                         color:#005aab;

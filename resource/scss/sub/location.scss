@@ -43,14 +43,14 @@
                         }
                         a{
                             padding: 0 3rem;
-                            background: #ffffff;
-                            
+                            background: #005aab;
+                            &:hover {color:#005aab;}
                         }
                     }
                 }
             }
             &.last{
-                background: #005aab;
+                background: #000;
                 box-shadow: .8rem .8rem 1.8rem rgba(0,0,0,0.28);
                 border-right: 0;
                 >a{

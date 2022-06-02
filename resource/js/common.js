@@ -1,7 +1,21 @@
 $(document).ready(function () {
+    nav();
     subDepth2();
     footer_Swiper();
 });    
+function nav(){
+  $('.navigation .gnb ul li').mouseover(function () {
+    $(this).children().addClass('active');
+    $('.navigation .gnb .show').css('opacity','1');
+    $('.navigation .gnb ul li .depth2').css('display','block');
+  });
+  $('.navigation .gnb ul li').mouseleave(function () {
+    $(this).children().removeClass('active');
+    $('.navigation .gnb .show').css('opacity','0');
+    $('.navigation .gnb ul li .depth2').css('display','none');
+  });
+
+}
 
 function subDepth2(){
     $('.category > li').setMenu();

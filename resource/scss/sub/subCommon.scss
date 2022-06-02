@@ -129,6 +129,13 @@ button, select, input{
             }
         }
     }
+    &-des{
+        font : {
+            size:2rem;
+            weight:500;
+        }
+        margin-bottom: 5rem;
+    }
     &-tab{
         &__inner{
             padding:3.5rem 0;
@@ -207,5 +214,65 @@ dl{
             padding: 5rem 0;
             border: 1px solid #dfdfdf;
         }
+    }
+}
+
+.top-des{
+    background-color: #f5f8f9;
+    background-repeat: no-repeat;   
+    &.program{
+        background-image: url(../../image/sub/bg-programApplySch.png);   
+        background-position: right 14.3rem bottom;
+    }
+    &.visitProgram{
+        padding-left: 47.5rem;
+        background-image: url(../../image/sub/bg-program.png);   
+        background-position: left 9.6rem center;
+        .top-des__inner{
+            padding-left: 0;
+        }
+    }
+    &.online{
+        background-image: url(../../image/sub/bg-online.png);   
+        background-position: right 13.4rem center;
+        
+    }
+    &__inner{
+        padding: 5rem 6rem;   
+    }
+    dl{
+        font-size: 1.8rem;
+        >div{
+            @include display-flex;
+            &+div{
+                margin-top: 1rem;
+            }
+        }
+        dt{
+            margin-right: 1.2rem;
+            margin-bottom: 0;
+            line-height: 3rem;
+        }
+        dd{
+            margin-bottom: 0;
+            line-height: 3rem;
+            font-weight: 500;
+            ul{
+                li{
+                    font : {
+                        size: 1.8rem;
+                        weight: 500;
+                    }
+                    line-height: 3rem;
+                }
+            }
+        }
+    }
+    p{
+        font : {
+            size:2rem;
+            weight:600;
+        }
+        line-height: 2.8rem;
     }
 }

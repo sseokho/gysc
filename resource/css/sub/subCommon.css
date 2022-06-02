@@ -42,6 +42,8 @@ button, select, input { font-family: 'notokr', sans-serif; }
 
 .sub-title2__color--blue { margin-bottom: 3rem; font-size: 2.4rem; font-weight: 600; color: #005aab; }
 
+.sub-des { font-size: 2rem; font-weight: 500; margin-bottom: 5rem; }
+
 .sub-tab__inner { padding: 3.5rem 0; margin-bottom: 5rem; border-radius: .5rem; border: .2rem solid #e0e3e8; }
 
 .sub-tab ul { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 0; }
@@ -67,3 +69,29 @@ dl { font-size: 1.8rem; }
 dl > div { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; }
 
 .border-box__inner { padding: 5rem 0; border: 1px solid #dfdfdf; }
+
+.top-des { background-color: #f5f8f9; background-repeat: no-repeat; }
+
+.top-des.program { background-image: url(../../image/sub/bg-programApplySch.png); background-position: right 14.3rem bottom; }
+
+.top-des.visitProgram { padding-left: 47.5rem; background-image: url(../../image/sub/bg-program.png); background-position: left 9.6rem center; }
+
+.top-des.visitProgram .top-des__inner { padding-left: 0; }
+
+.top-des.online { background-image: url(../../image/sub/bg-online.png); background-position: right 13.4rem center; }
+
+.top-des__inner { padding: 5rem 6rem; }
+
+.top-des dl { font-size: 1.8rem; }
+
+.top-des dl > div { display: -webkit-box; display: flex; display: -ms-flexbox; display: flex; }
+
+.top-des dl > div + div { margin-top: 1rem; }
+
+.top-des dl dt { margin-right: 1.2rem; margin-bottom: 0; line-height: 3rem; }
+
+.top-des dl dd { margin-bottom: 0; line-height: 3rem; font-weight: 500; }
+
+.top-des dl dd ul li { font-size: 1.8rem; font-weight: 500; line-height: 3rem; }
+
+.top-des p { font-size: 2rem; font-weight: 600; line-height: 2.8rem; }

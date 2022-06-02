@@ -26,6 +26,7 @@
                 }
             }
             .info{
+                flex:1;
                 p{
                     font: {
                         size: 1.8rem;
@@ -59,7 +60,7 @@
             }
             .button-wrap{
                 flex:none;
-                margin-left: auto;
+                margin-left: 3rem;
                 button{
                     width: 16.4rem;
                     height: 6rem;

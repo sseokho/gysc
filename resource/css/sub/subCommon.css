@@ -56,7 +56,7 @@ button, select, input { font-family: 'notokr', sans-serif; }
 
 .sub-tab ul li.on a { color: #005aab; }
 
-.sub-tab ul li a { padding: 0 5.5rem; color: #747478; font-size: 2.2rem; font-weight: 500; }
+.sub-tab ul li a { padding: 0 2.5rem; color: #747478; font-size: 2.2rem; font-weight: 500; }
 
 .sub-tab ul li + li { position: relative; }
 

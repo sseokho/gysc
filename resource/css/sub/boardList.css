@@ -6,6 +6,8 @@
 
 .board-list__inner .img-wrap img { max-width: 100%; max-height: 100%; }
 
+.board-list__inner .info { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
+
 .board-list__inner .info p { font-size: 1.8rem; font-weight: 500; color: #555555; }
 
 .board-list__inner .info p + p { margin-top: 1.5rem; }
@@ -16,7 +18,7 @@
 
 .board-list__inner .info .date, .board-list__inner .info .target { overflow: hidden; text-overflow: ellipsis; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; font-size: 1.8rem; font-weight: 500; color: #555555; }
 
-.board-list__inner .button-wrap { -webkit-box-flex: 0; -ms-flex: none; flex: none; margin-left: auto; }
+.board-list__inner .button-wrap { -webkit-box-flex: 0; -ms-flex: none; flex: none; margin-left: 3rem; }
 
 .board-list__inner .button-wrap button { width: 16.4rem; height: 6rem; font-size: 1.8rem; font-weight: 600; color: #005aab; border: 1px solid #005aab; background: #ffffff; letter-spacing: -1px; }
 

@@ -2,6 +2,7 @@
 @import url(font.css);
 @import url(swiper.min.css);
 
+@import "./_mixin";
 
 #skipNavigation {
     position:absolute;
@@ -442,10 +443,20 @@ html {
     font-size: 62.5%; //1em = 10px로 설정
     font-weight: $font-weight__r;
     letter-spacing: -0.25px;
-    // @include height-l {
-    //     font-size: 52.5%;
-    // }
+    @include mobile-l{ //720px
+        font-size:  57.81%;
+    }
+    @include mobile-ml{ //640px
+        font-size:  calc(62.5% / 1.3);
+    }
+    @include mobile-m{ //540px
+        font-size:  calc(62.5% / 1.7);
+    }
+    @include mobile-s{ //375px
+        font-size:  calc(62.5% / 2);
+    }
 }
+
 
 p{
     font-size: 2rem;

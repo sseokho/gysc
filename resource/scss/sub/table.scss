@@ -340,6 +340,24 @@
             }
         }
     }
+    &.table-auto{
+        table{
+            table-layout: auto;
+        }
+        tr{
+            td, th{
+                border:1px solid #efefef;
+            }
+        }
+    }
+    >p{
+        margin-top: 1rem;
+        font : {
+            size:1.8rem;
+            weight:500;
+        }
+        text-align: right;
+    }
  }
 
 .table-title {

@@ -44,4 +44,6 @@
 
 .button-small button.w-auto { width: auto !important; padding: 0 3rem; }
 
+.button-large button { width: 64rem; height: 8rem; border-radius: .5rem; font-size: 2.2rem; -webkit-box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.28); box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.28); }
+
 .button-url { width: 9rem; height: 4rem; margin-left: auto; background: #dfdfdf; color: #005aab !important; }

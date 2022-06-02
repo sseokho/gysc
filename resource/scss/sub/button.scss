@@ -136,6 +136,15 @@
             }
         }
     }
+    &-large{
+        button{
+            width:64rem;
+            height:8rem;
+            border-radius: .5rem;
+            font-size: 2.2rem;
+            box-shadow: .3rem .3rem 1rem rgba(0,0,0,0.28);
+        }
+    }
     &-url{
         width: 9rem;
         height: 4rem;

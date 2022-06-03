@@ -104,3 +104,10 @@
 .paging__inner a.last { background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='10'%3E%3Cpath fill-rule='evenodd' fill='rgb(0, 0, 0)' d='m11.739 4.882.251.249-5.781 4.87-.961-.958L9.929 5.1 5.011.957 5.971 0l5.007 4.217.051-.043.563.561.16.134-.013.013Zm-5.71-.708.563.561.16.134-.013.013.251.249-5.781 4.87-.961-.958L4.929 5.1.011.957.971 0l5.007 4.217.051-.043Z'/%3E%3C/svg%3E"); }
 
 .paging__inner a + a { margin-left: 1px; }
+
+/*===================================================================================================
+===========================================  responsive ==========================================
+==================================================================================================*/
+@media screen and (max-width: 720px) { .board-list__inner ul li { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+  .board-list__inner .img-wrap { margin-right: 0; margin-bottom: 3rem; }
+  .board-list__inner .button-wrap { margin-left: 0; margin-top: 3rem; } }

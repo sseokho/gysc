@@ -177,8 +177,12 @@
         }
     }
     &-des{
+        flex:1;
         padding-top: 5rem;
         padding-right: 11.5rem;
+        .button-blue{
+           min-width: 45rem;
+        }
     }
     &-bottom{
         >ul{

@@ -152,4 +152,16 @@
         background: #dfdfdf;
         color:#005aab !important;
     }
+    &-down{
+        button{
+            flex:1;
+            height: 7rem;
+            border-radius: .5rem;
+            font-size: 1.8rem;
+            box-shadow: .3rem .3rem 1rem rgba(0,0,0,0.28);
+            a{
+                color:#ffffff;
+            }
+        }
+    }
 }

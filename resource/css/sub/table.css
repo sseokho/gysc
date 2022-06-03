@@ -120,6 +120,18 @@
 
 .table-wrap > p { margin-top: 1rem; font-size: 1.8rem; font-weight: 500; text-align: right; }
 
+.table-wrap.table-content { border-top: 0; }
+
+.table-wrap.table-content tr { border: 0; }
+
+.table-wrap.table-content th { background: #f8fafc; color: #000000; font-weight: 500; }
+
+.table-wrap.table-content th, .table-wrap.table-content td { height: 5rem; border: 1px solid #eeeeee; line-height: 3rem; letter-spacing: -.05rem; }
+
+.table-wrap.table-content td { padding: 1rem 0; color: #555555; }
+
+.table-wrap.table-content > p { font-size: 1.6rem; color: #555555; }
+
 .table-title { margin-bottom: 3.5rem; font-size: 3.2rem; font-weight: 500; text-align: center; }
 
 .board-bottom { margin-top: 5rem; }

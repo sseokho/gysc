@@ -359,6 +359,31 @@
         }
         text-align: right;
     }
+    &.table-content{
+        border-top:0;
+        tr{
+            border:0;
+        }
+        th{
+            background: #f8fafc;
+            color:#000000;
+            font-weight: 500;
+        }
+        th, td{
+            height: 5rem;
+            border:1px solid #eeeeee;
+            line-height: 3rem;
+            letter-spacing: -.05rem;
+        }
+        td{
+            padding:1rem 0;
+            color:#555555; 
+        }
+        >p{
+            font-size: 1.6rem;
+            color:#555555;
+        }
+    }
  }
 
 .table-title {

@@ -32,6 +32,8 @@ button, select, input { font-family: 'notokr', sans-serif; }
 
 .color-orange { color: #fd7201; }
 
+.color-blue { color: #005aab !important; }
+
 .sub-visual { height: 24rem; }
 
 .sub-visual.businessInfo { background: url(../../image/sub/sub-visual__02.jpg) no-repeat center; }

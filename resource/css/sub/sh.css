@@ -108,6 +108,7 @@
 .content .grayBox_sh .grayBox_ul li:nth-child(n+2){
     margin-top: 1rem;
 }
+
 .content .grayBox_sh .grayBox_ul li.list1{width:100%;}
 .content .grayBox_sh .grayBox_ul li.list2, .content .grayBox_sh .grayBox_ul li.list4{
     display: flex;
@@ -127,4 +128,45 @@
     background-color: #f5f8f9;
     content: "";
     z-index: -1;
+}
+
+
+.youthCouncil-top .img-wrap-sh {
+    width: 47.5rem;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+}
+
+.youthCouncil-top .img-wrap-sh img {
+    display: block;
+    margin: 0 auto;
+    border:1px solid #ddd;
+    border-radius: 12rem;
+    -webkit-box-shadow: 1rem 1rem 1.8rem rgba(0, 0, 0, 0.1);
+    box-shadow: 1rem 1rem 1.8rem rgba(0, 0, 0, 0.1);
+}
+
+
+.youthCouncil_sh .youthCouncil-des {
+    
+    padding-right: 10.5rem;
+}
+.youthCouncil_sh .youthCouncil-bottom .cont p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: flex-start;
+    height: 8rem;
+    text-align: left;
+    border-radius: .3rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    border: none; 
 }

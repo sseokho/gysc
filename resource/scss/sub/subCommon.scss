@@ -194,6 +194,14 @@ button, select, input{
         }    
     }
 }
+.cont-title{
+    margin-bottom: 5rem ;
+    text-align: center;
+    font : {
+        size:3.6rem;
+        weight:500;
+    }
+}
 .w{
     &-50{
         width:50%;
